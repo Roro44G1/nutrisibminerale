@@ -13,6 +13,11 @@
             color: #333;
             line-height: 1.6;
             margin: 20px;
+            /* Stiluri pentru a preveni selecția textului */
+            -webkit-user-select: none; /* Safari */
+            -moz-user-select: none; /* Firefox */
+            -ms-user-select: none; /* IE 10+ */
+            user-select: none; /* Sintaxă standard */
         }
 
       .main-title {
@@ -111,7 +116,7 @@
       .bibliography-container {
             column-count: 2;
             column-gap: 40px;
-            font-size: 0.8em;
+            font-size: 0.9em;
         }
 
       .bibliography-container ul {
@@ -121,9 +126,18 @@
         }
 
       .bibliography-container li {
-            margin-bottom: 10px;
+            margin-bottom: 12px;
             word-wrap: break-word;
             text-align: left;
+        }
+        
+      .bibliography-container a {
+            color: #ff7f50;
+            text-decoration: none;
+        }
+        
+      .bibliography-container a:hover {
+            text-decoration: underline;
         }
 
         table {
@@ -214,7 +228,7 @@
                     </tr>
                     <tr>
                         <td><strong>Formula chimică</strong></td>
-                        <td>CaCO<sub>3</sub> (Carbonat de calciu)</td>
+                        <td>$CaCO_3$ (Carbonat de calciu)</td>
                         <td>[8, 4]</td>
                     </tr>
                     <tr>
@@ -239,7 +253,7 @@
                     </tr>
                     <tr>
                         <td><strong>Chakre influențate</strong></td>
-                        <td><a href="https://nutrisibchakra.netlify.app/muladhara" target="_blank">Chakra Rădăcină (Muladhara)</a>, <a href="https://nutrisibchakra.netlify.app/muladhara" target="_blank">Chakra Sacrală (Svadhisthana).</a></td>
+                        <td>Chakra rădăcină (Muladhara), chakra sacrală (Svadhisthana).</td>
                         <td>[4]</td>
                     </tr>
                     <tr>
@@ -270,7 +284,7 @@
             
             <h4>1.2. Scheletul alchimic: biomineralizare și compoziție</h4>
             <p>Procesul prin care polipii construiesc scheletul durabil este un exemplu remarcabil de biomineralizare. Scheletul, care constituie gema prețioasă, este clasificat în mineralogie drept un carbonat biogen.[8]</p>
-            <p>Compoziția sa chimică primară este carbonatul de calciu (CaCO<sub>3</sub>), sub formă de calcit.[8, 4, 9] Structura este formată din spiculi de carbonat de calciu extrem de duri, fuzionați între ei, ceea ce conferă materialului durabilitate și densitate.[3] Pe lângă componenta anorganică majoritară, scheletul conține și o mică proporție de proteine organice, precum conchiolina, care acționează ca o matrice de legătură și influențează proprietățile mecanice ale materialului.[15] Această combinație de mineral și materie organică este cea care plasează coralul la granița dintre lumea vie și cea anorganică, o dualitate care a alimentat fascinația și simbolismul său de-a lungul istoriei.</p>
+            <p>Compoziția sa chimică primară este carbonatul de calciu ($CaCO_3$), sub formă de calcit.[8, 4, 9] Structura este formată din spiculi de carbonat de calciu extrem de duri, fuzionați între ei, ceea ce conferă materialului durabilitate și densitate.[3] Pe lângă componenta anorganică majoritară, scheletul conține și o mică proporție de proteine organice, precum conchiolina, care acționează ca o matrice de legătură și influențează proprietățile mecanice ale materialului.[15] Această combinație de mineral și materie organică este cea care plasează coralul la granița dintre lumea vie și cea anorganică, o dualitate care a alimentat fascinația și simbolismul său de-a lungul istoriei.</p>
             
             <h4>1.3. Paleta oceanului: originea nuanței somon</h4>
             <p>Culoarea vibrantă și permanentă a coralului prețios este una dintre cele mai valoroase caracteristici ale sale. Nuanțele calde de roșu, roz și, în special, somon (roz-portocaliu) se datorează prezenței pigmenților carotenoizi încorporați în matricea de carbonat de calciu în timpul formării scheletului.[3] Acești pigmenți sunt absorbiți de polipi din dieta lor, care constă în principal din plancton și alte particule organice suspendate în apă.[9]</p>
@@ -357,11 +371,10 @@
             <p>Nuanța specifică de somon poartă o vibrație energetică distinctă, care combină atributele culorilor componente. Portocaliul este asociat cu energia, entuziasmul, creativitatea și bucuria [34, 35], în timp ce rozul simbolizează iubirea necondiționată, compasiunea, tandrețea și vindecarea emoțională.[10, 36] Prin urmare, coralul somon este considerat un catalizator pentru o creativitate plină de pasiune, dar echilibrată de o comunicare blândă și empatică. Este ideal pentru a cultiva relații armonioase, a încuraja exprimarea sinceră a sentimentelor și a aduce o stare de bucurie caldă și echilibrată în viața purtătorului.[4, 37]</p>
             
             <h3>2. Armonizarea corpului energetic: coralul și sistemul chakrelor</h3>
-            <img src="chakras.jpg" alt="Dispunerea Chakrelor">
             <p>În tradițiile spirituale orientale, se consideră că corpul uman are mai mulți centri energetici, numiți chakre, fiecare guvernând anumite aspecte ale ființei fizice, emoționale și spirituale. Coralul, în funcție de culoare, este asociat cu activarea și echilibrarea anumitor chakre, în special a celor inferioare, care ne ancorează în experiența fizică.</p>
             <ul>
-                <li><strong><a href="https://nutrisibchakra.netlify.app/muladhara" target="_blank">Chakra Rădăcină (Muladhara):</a></strong> Situată la baza coloanei vertebrale, aceasta este fundația sistemului energetic, guvernând stabilitatea, securitatea, supraviețuirea și conexiunea cu lumea materială.[38] Coralul roșu și nuanțele închise de somon rezonează puternic cu această chakră. Se crede că purtarea sa ajută la ancorarea energiei, la calmarea fricilor existențiale și la consolidarea sentimentului de siguranță și apartenență.[38] Energia sa de împământare oferă stabilitate și încredere pentru a face față provocărilor vieții.[38]</li>
-                <li><strong><a href="https://nutrisibchakra.netlify.app/muladhara" target="_blank">Chakra Sacrală (Svadhisthana):</a></strong> Aceasta este chakra cel mai direct asociată cu coralul portocaliu și somon. Localizată în zona pelviană, chakra sacrală este centrul creativității, al energiei sexuale, al emoțiilor, al dorințelor și al bucuriei de a trăi.[39] Se crede că purtarea coralului somon stimulează acest centru energetic, ajutând la deblocarea fluxului creativ, la vindecarea problemelor legate de sexualitate și la restabilirea unui flux natural de bucurie și pasiune în viață.[10] Energia sa, asociată elementului Apă, încurajează flexibilitatea și eliberarea tensiunilor emoționale.[10, 39]</li>
+                <li><strong>Chakra rădăcină (Muladhara):</strong> Situată la baza coloanei vertebrale, aceasta este fundația sistemului energetic, guvernând stabilitatea, securitatea, supraviețuirea și conexiunea cu lumea materială.[38] Coralul roșu și nuanțele închise de somon rezonează puternic cu această chakră. Se crede că purtarea sa ajută la ancorarea energiei, la calmarea fricilor existențiale și la consolidarea sentimentului de siguranță și apartenență.[38] Energia sa de împământare oferă stabilitate și încredere pentru a face față provocărilor vieții.[38]</li>
+                <li><strong>Chakra sacrală (Svadhisthana):</strong> Aceasta este chakra cel mai direct asociată cu coralul portocaliu și somon. Localizată în zona pelviană, chakra sacrală este centrul creativității, al energiei sexuale, al emoțiilor, al dorințelor și al bucuriei de a trăi.[39] Se crede că purtarea coralului somon stimulează acest centru energetic, ajutând la deblocarea fluxului creativ, la vindecarea problemelor legate de sexualitate și la restabilirea unui flux natural de bucurie și pasiune în viață.[10] Energia sa, asociată elementului Apă, încurajează flexibilitatea și eliberarea tensiunilor emoționale.[10, 39]</li>
             </ul>
             <p>Această legătură între roșu/portocaliu și centrii energetici ai vitalității și creativității nu este întâmplătoare. Ea reflectă o asociere universală între culoarea sângelui și forța vitală. Coralul funcționează ca o punte energetică: nuanța sa roșie ancorează energia în instinctul de supraviețuire al chakrei rădăcină, în timp ce componenta sa portocalie/roz o elevează, transformând-o în pasiune creativă (chakra sacrală) și iubire plină de compasiune (chakra inimii).</p>
             
@@ -391,64 +404,65 @@
             <h2>Bibliografie</h2>
             <div class="bibliography-container">
                 <ul>
-                    <li>[1] https://www.youtube.com/watch?v=2OqzH5vMAnA&pp=0gcJCfwAo7VqN5tD</li>
-                    <li>[2] https://en.wikipedia.org/wiki/Coral</li>
-                    <li>[3] https://en.wikipedia.org/wiki/Precious_coral</li>
-                    <li>[13] http://www.marinespecies.org/aphia.php?p=taxdetails&id=125416</li>
-                    <li>[14] https://pmc.ncbi.nlm.nih.gov/articles/PMC10915489/</li>
-                    <li>[8] https://www.concepttropic.ro/coral-alb</li>
-                    <li>[4] https://www.kristale.ro/dupa-numele-cristalelor/coral/</li>
-                    <li>[9] https://www.centrulgemologicroman.ro/coralii-geme-organice/</li>
-                    <li>[15] https://sobling.jewelry/ro/coral-a-journey-through-history-science-and-aesthetics/?PageSpeed=noscript</li>
-                    <li>[16] https://www.taiwan-panorama.com/en/Articles/Details?Guid=113fba9b-3be2-44de-9655-701f4dd5b8aa&CatId=9&postname=Restoring%20the%20Value%20of%20Coral</li>
-                    <li>[17] https://www.youtube.com/watch?v=uvHSkANyyOY</li>
-                    <li>[18] https://www.youtube.com/watch?v=JSTFyrn4Q58</li>
-                    <li>[19] https://www.youtube.com/watch?v=6KlCx0ycN70</li>
-                    <li>[20] https://www.youtube.com/watch?v=WxnVhJGPrM8</li>
-                    <li>[21] https://www.youtube.com/watch?v=qiWlLetmxLo</li>
-                    <li>[22] https://www.youtube.com/watch?v=vQ9z8hR8qGw</li>
-                    <li>[6] https://www.shebajewelry.ro/brose/5-15-2-14826.html</li>
-                    <li>[7] https://teratai.shop/blog/pietre-semipretioase/coralul-o-poveste-din-adancuri/</li>
-                    <li>[10] https://signdesign.ro/coral/</li>
-                    <li>[23] https://blutimescubahistory.com/web/en/parliamo-di/1-red-coral-ancient-fishing</li>
-                    <li>[24] https://www.napoliartigianatoartistico.com/en/la-lavorazione-artisticoartigianale-del-corallo/</li>
-                    <li>[25] https://fondazionesorrento.com/en/nature/red-coral-myth-tradition/</li>
-                    <li>[26] https://galeriepenelope.com/a/l/en/blogs/journal/le-corail</li>
-                    <li>[27] https://pubmed.ncbi.nlm.nih.gov/14527824/</li>
-                    <li>[50] https://store.planetayurveda.com/products/coral-cal-flow</li>
-                    <li>[31] https://pmc.ncbi.nlm.nih.gov/articles/PMC10791799/</li>
-                    <li>[32] https://pubmed.ncbi.nlm.nih.gov/38235111/</li>
-                    <li>[11] https://www.stonemania.ro/semnificatia-coralului-rosu/</li>
-                    <li>[34] https://florariadevis.ro/culorile-florilor-si-impactul-lor-psihologic-un-ghid-complet/</li>
-                    <li>[35] https://kojaconcept.com/2023/09/16/culoarea-portocaliu-istorie-moda-si-psihologie/</li>
-                    <li>[36] https://www.kumioils.com/blogs/news/coral-stone-meaning</li>
-                    <li>[37] https://www.drmax.ro/articole/cristaloterapie-terapia-cu-cristale-mituri-si-realitati</li>
-                    <li>[51] https://www.magazinuldepietre.ro/blog/post/cele-7-chakre-cum-iti-pot-proteja-pietrele-semipretioase-energia-interioara.html</li>
-                    <li>[52] https://www.iigsouth.com/red-coral-astrology-navaratna/</li>
-                    <li>[38] https://harekrishnamart.com/blogs/post/which-chakra-does-red-coral-stone-work-on</li>
-                    <li>[40] http://planetarygems.com/redcoralpage.htm</li>
-                    <li>[41] https://en.wikipedia.org/wiki/Mangala</li>
-                    <li>[42] https://thevediccrystals.com/blogs/articles-around-gemstones/is-red-coral-moonga-good-for-manglik-dosha</li>
-                    <li>[47] https://fengshuidana.com/2015/10/10/feng-shui-using-the-color-orange/</li>
-                    <li>[48] https://www.picturethisai.com/fengshui/Erythrina_speciosa.html</li>
-                    <li>[5] https://www.acquariodilivorno.com/corals</li>
-                    <li>[12] https://www.magazinuldepietre.ro/blog/post/pietre-semipretioase-rosii-cu-putere-simbolica-rubin-granat-jasp-rosu-carneol-rodonit-si-coral-rosu.html</li>
-                    <li>[28] https://www.researchgate.net/publication/359423618_Conceptual_Review_of_Pravala_Coral_-_A_Marine_Source_of_Natural_Calcium</li>
-                    <li>[29] https://www.netmeds.com/health-library/post/praval-pishti-benefits-uses-ingredients-dosage-and-side-effects</li>
-                    <li>[30] https://journaljpri.com/index.php/JPRI/article/view/2522</li>
-                    <li>[33] https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2023.1230608/full</li>
-                    <li>[39] https://www.shvasa.com/yoga-blog/what-is-the-sacral-chakra</li>
-                    <li>[43] https://bucatarieindiana.wordpress.com/2015/02/03/coralul-rosu-remediu-astrologic-pentru-planeta-marte/</li>
-                    <li>[44] https://www.fengshui4life.ro/blog/cum-sa-ti-activezi-perspectivele-de-casatorie/</li>
-                    <li>[45] https://buddhaandkarma.com/blogs/guide/feng-shui-bagua</li>
-                    <li>[46] https://fengshuimanhattan.com/blog/2018/6/21/feng-shui-bagua-map-basics-for-your-home</li>
-                    <li>[49] https://www.fengshui4life.ro/blog/feng-shui-pentru-dragoste-ghidul-pentru-armonie-in-relatii/</li>
+                    <li>[1] YouTube: <a href="https://www.youtube.com/watch?v=2OqzH5vMAnA" target="_blank">How Do Corals Build Their Skeletons?</a></li>
+                    <li>[2] Wikipedia: <a href="https://en.wikipedia.org/wiki/Coral" target="_blank">Coral</a></li>
+                    <li>[3] Wikipedia: <a href="https://en.wikipedia.org/wiki/Precious_coral" target="_blank">Precious coral</a></li>
+                    <li>[4] Kristale.ro: <a href="https://www.kristale.ro/dupa-numele-cristalelor/coral/" target="_blank">Coral</a></li>
+                    <li>[5] Acquario di Livorno: <a href="https://www.acquariodilivorno.com/corals" target="_blank">Corals</a></li>
+                    <li>[6] Sheba Jewelry: <a href="https://www.shebajewelry.ro/brose/5-15-2-14826.html" target="_blank">Broșă Coral</a></li>
+                    <li>[7] Teratai Shop: <a href="https://teratai.shop/blog/pietre-semipretioase/coralul-o-poveste-din-adancuri/" target="_blank">Coralul, o poveste din adâncuri</a></li>
+                    <li>[8] Concept Tropic: <a href="https://www.concepttropic.ro/coral-alb" target="_blank">Coral alb</a></li>
+                    <li>[9] Centrul Gemologic Roman: <a href="https://www.centrulgemologicroman.ro/coralii-geme-organice/" target="_blank">Coralii - geme organice</a></li>
+                    <li>[10] Sign Design: <a href="https://signdesign.ro/coral/" target="_blank">Coral</a></li>
+                    <li>[11] Stonemania: <a href="https://www.stonemania.ro/semnificatia-coralului-rosu/" target="_blank">Semnificația coralului roșu</a></li>
+                    <li>[12] Magazinul de Pietre: <a href="https://www.magazinuldepietre.ro/blog/post/pietre-semipretioase-rosii-cu-putere-simbolica-rubin-granat-jasp-rosu-carneol-rodonit-si-coral-rosu.html" target="_blank">Pietre semiprețioase roșii</a></li>
+                    <li>[13] Marine Species: <a href="http://www.marinespecies.org/aphia.php?p=taxdetails&id=125416" target="_blank">Corallium rubrum</a></li>
+                    <li>[14] NCBI: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10915489/" target="_blank">The Microbiome of the Precious Coral Corallium rubrum</a></li>
+                    <li>[15] Sobling Jewelry: <a href="https://sobling.jewelry/ro/coral-a-journey-through-history-science-and-aesthetics/?PageSpeed=noscript" target="_blank">Coral: A Journey Through History...</a></li>
+                    <li>[16] Taiwan Panorama: <a href="https://www.taiwan-panorama.com/en/Articles/Details?Guid=113fba9b-3be2-44de-9655-701f4dd5b8aa&CatId=9&postname=Restoring%20the%20Value%20of%20Coral" target="_blank">Restoring the Value of Coral</a></li>
+                    <li>[17] YouTube: <a href="https://www.youtube.com/watch?v=uvHSkANyyOY" target="_blank">Coral Reefs 101 | National Geographic</a></li>
+                    <li>[18] YouTube: <a href="https://www.youtube.com/watch?v=JSTFyrn4Q58" target="_blank">Coral Bleaching | National Geographic</a></li>
+                    <li>[19] YouTube: <a href="https://www.youtube.com/watch?v=6KlCx0ycN70" target="_blank">What is coral bleaching?</a></li>
+                    <li>[20] YouTube: <a href="https://www.youtube.com/watch?v=WxnVhJGPrM8" target="_blank">Why are coral reefs dying?</a></li>
+                    <li>[21] YouTube: <a href="https://www.youtube.com/watch?v=qiWlLetmxLo" target="_blank">How to restore coral reefs</a></li>
+                    <li>[22] YouTube: <a href="https://www.youtube.com/watch?v=vQ9z8hR8qGw" target="_blank">Taiwan's coral restoration project</a></li>
+                    <li>[23] Blutimescubahistory: <a href="https://blutimescubahistory.com/web/en/parliamo-di/1-red-coral-ancient-fishing" target="_blank">Red Coral - Ancient Fishing</a></li>
+                    <li>[24] Napoli Artigianato Artistico: <a href="https://www.napoliartigianatoartistico.com/en/la-lavorazione-artisticoartigianale-del-corallo/" target="_blank">La lavorazione... del corallo</a></li>
+                    <li>[25] Fondazione Sorrento: <a href="https://fondazionesorrento.com/en/nature/red-coral-myth-tradition/" target="_blank">Red Coral - Myth and Tradition</a></li>
+                    <li>[26] Galerie Pénélope: <a href="https://galeriepenelope.com/a/l/en/blogs/journal/le-corail" target="_blank">Le Corail</a></li>
+                    <li>[27] PubMed: <a href="https://pubmed.ncbi.nlm.nih.gov/14527824/" target="_blank">Effect of Praval Bhasma (Coral Calx)</a></li>
+                    <li>[28] ResearchGate: <a href="https://www.researchgate.net/publication/359423618_Conceptual_Review_of_Pravala_Coral_-_A_Marine_Source_of_Natural_Calcium" target="_blank">Conceptual Review of Pravala (Coral)</a></li>
+                    <li>[29] Netmeds: <a href="https://www.netmeds.com/health-library/post/praval-pishti-benefits-uses-ingredients-dosage-and-side-effects" target="_blank">Praval Pishti: Benefits, Uses...</a></li>
+                    <li>[30] Journal of Pharmaceutical Research Int.: <a href="https://journaljpri.com/index.php/JPRI/article/view/2522" target="_blank">A Comprehensive Review on Praval Bhasma</a></li>
+                    <li>[31] NCBI: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10791799/" target="_blank">The Application... of Coral in Traditional Medicine</a></li>
+                    <li>[32] PubMed: <a href="https://pubmed.ncbi.nlm.nih.gov/38235111/" target="_blank">The application... of coral in traditional medicine</a></li>
+                    <li>[33] Frontiers in Pharmacology: <a href="https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2023.1230608/full" target="_blank">A Review of the Pharmacology of Corals</a></li>
+                    <li>[34] Floraria de Vis: <a href="https://florariadevis.ro/culorile-florilor-si-impactul-lor-psihologic-un-ghid-complet/" target="_blank">Culorile florilor și impactul lor psihologic</a></li>
+                    <li>[35] Koja Concept: <a href="https://kojaconcept.com/2023/09/16/culoarea-portocaliu-istorie-moda-si-psihologie/" target="_blank">Culoarea portocaliu: Istorie, modă...</a></li>
+                    <li>[36] Kumi Oils: <a href="https://www.kumioils.com/blogs/news/coral-stone-meaning" target="_blank">Coral Stone Meaning</a></li>
+                    <li>[37] Dr.Max: <a href="https://www.drmax.ro/articole/cristaloterapie-terapia-cu-cristale-mituri-si-realitati" target="_blank">Cristaloterapie: mituri și realități</a></li>
+                    <li>[38] Hare Krishna Mart: <a href="https://harekrishnamart.com/blogs/post/which-chakra-does-red-coral-stone-work-on" target="_blank">Which Chakra Does Red Coral Stone Work On?</a></li>
+                    <li>[39] Shvasa: <a href="https://www.shvasa.com/yoga-blog/what-is-the-sacral-chakra" target="_blank">What is the Sacral Chakra?</a></li>
+                    <li>[40] Planetary Gems: <a href="http://planetarygems.com/redcoralpage.htm" target="_blank">Red Coral Page</a></li>
+                    <li>[41] Wikipedia: <a href="https://en.wikipedia.org/wiki/Mangala" target="_blank">Mangala</a></li>
+                    <li>[42] The Vedic Crystals: <a href="https://thevediccrystals.com/blogs/articles-around-gemstones/is-red-coral-moonga-good-for-manglik-dosha" target="_blank">Is Red Coral Good For Manglik Dosha?</a></li>
+                    <li>[43] Bucătărie Indiană: <a href="https://bucatarieindiana.wordpress.com/2015/02/03/coralul-rosu-remediu-astrologic-pentru-planeta-marte/" target="_blank">Coralul roșu, remediu astrologic...</a></li>
+                    <li>[44] Feng Shui 4 Life: <a href="https://www.fengshui4life.ro/blog/cum-sa-ti-activezi-perspectivele-de-casatorie/" target="_blank">Cum să-ți activezi perspectivele de căsătorie</a></li>
+                    <li>[45] Buddha & Karma: <a href="https://buddhaandkarma.com/blogs/guide/feng-shui-bagua" target="_blank">Feng Shui Bagua Map</a></li>
+                    <li>[46] Feng Shui Manhattan: <a href="https://fengshuimanhattan.com/blog/2018/6/21/feng-shui-bagua-map-basics-for-your-home" target="_blank">Feng Shui Bagua Map Basics</a></li>
+                    <li>[47] Feng Shui Dana: <a href="https://fengshuidana.com/2015/10/10/feng-shui-using-the-color-orange/" target="_blank">Using the Color Orange</a></li>
+                    <li>[48] PictureThis AI: <a href="https://www.picturethisai.com/fengshui/Erythrina_speciosa.html" target="_blank">Feng Shui of Erythrina speciosa</a></li>
+                    <li>[49] Feng Shui 4 Life: <a href="https://www.fengshui4life.ro/blog/feng-shui-pentru-dragoste-ghidul-pentru-armonie-in-relatii/" target="_blank">Feng Shui pentru dragoste</a></li>
+                    <li>[50] Planeta Ayurveda: <a href="https://store.planetayurveda.com/products/coral-cal-flow" target="_blank">Coral Cal Flow</a></li>
+                    <li>[51] Magazinul de Pietre: <a href="https://www.magazinuldepietre.ro/blog/post/cele-7-chakre-cum-iti-pot-proteja-pietrele-semipretioase-energia-interioara.html" target="_blank">Cele 7 Chakre</a></li>
+                    <li>[52] IIG South: <a href="https://www.iigsouth.com/red-coral-astrology-navaratna/" target="_blank">Red Coral Astrology Navaratna</a></li>
                 </ul>
             </div>
         </div>
     </div>
 
     <script>
+        // Funcția pentru deschiderea tab-urilor
         function openTab(evt, tabName) {
             var i, tabcontent, tabbuttons;
             tabcontent = document.getElementsByClassName("tab-content");
@@ -462,6 +476,33 @@
             document.getElementById(tabName).style.display = "block";
             evt.currentTarget.className += " active";
         }
+
+        // Script de securitate pentru a bloca copierea și uneltele de dezvoltator
+        document.addEventListener('contextmenu', event => event.preventDefault()); // Blochează clicul dreapta
+
+        document.addEventListener('keydown', function(e) {
+            // Blochează Ctrl+C (Copiere)
+            if (e.ctrlKey && e.key === 'c') {
+                e.preventDefault();
+            }
+            // Blochează Ctrl+U (View Source)
+            if (e.ctrlKey && e.key === 'u') {
+                e.preventDefault();
+            }
+            // Blochează F12 (Developer Tools)
+            if (e.key === 'F12') {
+                e.preventDefault();
+            }
+            // Blochează Ctrl+Shift+I (Developer Tools)
+            if (e.ctrlKey && e.shiftKey && e.key === 'I') {
+                e.preventDefault();
+            }
+             // Blochează Ctrl+Shift+J (Developer Tools Console)
+            if (e.ctrlKey && e.shiftKey && e.key === 'J') {
+                e.preventDefault();
+            }
+        });
+
         // Activați primul tab la încărcarea paginii
         document.addEventListener("DOMContentLoaded", function() {
             document.querySelector('.tab-button').click();
