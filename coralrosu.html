@@ -1,363 +1,475 @@
-#FFF5EE; /* Seashell /color: #5D4037; / Dark brown for text, for contrast /}.tabs-container {max-width: 1200px;margin: 0 auto;background-color: #FFFFFF;box-shadow: 0 4px 8px rgba(0,0,0,0.1);border-radius: 8px;overflow: hidden;}.tab-buttons {display: flex;flex-wrap: wrap;background-color: #FFA07A; / Light Salmon /border-bottom: 2px solid #E9967A; / Dark Salmon /}.tab-button {padding: 15px 25px;cursor: pointer;border: none;background-color: transparent;font-size: 16px;font-weight: bold;color: #FFFFFF;transition: background-color 0.3s, color 0.3s;outline: none;}.tab-button:hover {background-color: #FA8072; / Salmon /}.tab-button.active {background-color: #FFFFFF;color: #E9967A; / Dark Salmon /border-bottom: 2px solid #FFFFFF;margin-bottom: -2px;}.tab-content {display: none;padding: 30px;border: 1px solid #E0E0E0;border-top: none;animation: fadeIn 0.5s;}.tab-content.active {display: block;}@keyframes fadeIn {from { opacity: 0; }to { opacity: 1; }}h1, h2, h3, h4, h5 {color: #D2691E; / Chocolate/Coral shade /margin-top: 1.5em;margin-bottom: 0.8em;}h1 { font-size: 2.2em; border-bottom: 2px solid #F08080; padding-bottom: 10px; }h2 { font-size: 1.8em; }h3 { font-size: 1.5em; }h4 { font-size: 1.2em; }p {margin-bottom: 1em;text-align: justify;}ul, ol {margin-left: 20px;margin-bottom: 1em;}li {margin-bottom: 0.5em;}table {width: 100%;border-collapse: collapse;margin: 2em 0;font-size: 0.95em;}th, td {border: 1px solid #E9967A; / Dark Salmon /padding: 12px;text-align: left;}th {background-color: #FFA07A; / Light Salmon /color: white;font-weight: bold;}tbody tr:nth-child(even) {background-color: #FFF0F5; / Lavender Blush /}blockquote {border-left: 4px solid #FFA07A; / Light Salmon /padding-left: 15px;margin: 1.5em 0;font-style: italic;color: #705446;}.citation {font-size: 0.8em;color: #A0522D; / Sienna */}<div id="Introducere" class="tab-content active">
-    <h1>Rezumat Executiv</h1>
-    <p>Acest raport oferă o analiză exhaustivă și multidisciplinară a coralului, o entitate unică la intersecția dintre biologie, geologie și cultură umană. Considerat o gemă organică prețioasă, coralul este, în esență, exoscheletul de carbonat de calciu secretat de colonii de mici nevertebrate marine. Documentul explorează această dualitate fundamentală, prezentând coralul atât ca organism viu, vital pentru sănătatea ecosistemelor marine, cât și ca material prețios, încărcat de simbolism și valoare estetică de-a lungul mileniilor.</p>
-    <p>Analiza este structurată pentru a acoperi toate fațetele acestui subiect complex. Prima secțiune detaliază fundamentele biologice și gemologice, clarificând diferențele dintre coralii de recif și speciile prețioase, proprietățile lor fizice și chimice, precum și factorii care determină varietatea de culori și valoarea comercială. O atenție deosebită este acordată problematicii sustenabilității, examinând metodele de recoltare, amenințările ecologice și eforturile de conservare care definesc astăzi industria coralului.</p>
-    <p>În continuare, raportul realizează o incursiune detaliată în istoria culturală a coralului, urmărind traiectoria sa de la amuletele protectoare din Neolitic și Antichitate, la simbolul de statut și bogăție în Renașterea europeană și în culturile asiatice, în special în Tibet. Este evidențiat rolul său constant în artă, bijuterii și ritualuri religioase, demonstrând o fascinație umană persistentă pentru această "floare a mării".</p>
-    <p>O secțiune dedicată explorează aplicațiile terapeutice ale coralului, creând o punte între utilizările sale istorice în medicinele tradiționale, precum Ayurveda și Medicina Tradițională Chineză, și validarea acestora prin cercetarea științifică modernă. Sunt analizate atât preparatele tradiționale, cât și aplicațiile contemporane în biomedicină, în special ca material pentru grefe osoase. De asemenea, sunt examinate în detaliu proprietățile metafizice atribuite coralului în diverse sisteme ezoterice, de la cristaloterapie și echilibrarea chakrelor la astrologia vedică și principiile Feng Shui.</p>
-    <p>Raportul se încheie cu un ghid practic, conceput pentru colecționari, bijutieri și consumatori. Acesta oferă informații esențiale despre metodele de identificare a coralului autentic, tipurile de tratamente și imitații existente pe piață, tehnicile artizanale de prelucrare și, nu în ultimul rând, recomandări detaliate pentru îngrijirea și întreținerea corectă a acestui material organic delicat. În ansamblu, documentul constituie o resursă completă, menită să ofere o înțelegere profundă și nuanțată a coralului în toate dimensiunile sale: naturale, culturale și practice.</p>
-</div>
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monografie Coral</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
-<div id="Biologie" class="tab-content">
-    <h1>Biologie, Gemologie și Sustenabilitate</h1>
-    
-    <h2>1. Natura Organică a Coralului: O Gemă Vie</h2>
-    
-    <h3>1.1. Definiție Biologică</h3>
-    <p>Coralul este un nevertebrat marin colonial, aparținând încrengăturii Cnidaria și subîncrengăturii Anthozoa.[1, 2, 3, 4, 5] Structura pe care o asociem în mod obișnuit cu denumirea de "coral" este, de fapt, exoscheletul dur, secretat de mii de organisme minuscule, identice din punct de vedere genetic, numite polipi. Fiecare polip este un animal individual, cu un corp în formă de sac, de doar câțiva milimetri în diametru, care secretă la baza sa un schelet protector din carbonat de calciu ($CaCO_3$).[6, 1, 7, 5] Pe parcursul a nenumărate generații, prin reproducerea asexuată a polipilor, aceste secreții se acumulează, formând structuri complexe, ramificate sau masive, care pot atinge dimensiuni de câțiva metri și constituie baza recifelor de corali.[1, 7]</p>
-    
-    <h3>1.2. Distincția între Coralii Prețioși și Coralii de Recif</h3>
-    <p>Este esențială diferențierea între coralii de recif și coralii prețioși, utilizați în gemologie. Coralii de recif, cunoscuți ca și corali hermatipici, trăiesc în ape tropicale de mică adâncime, limpezi și însorite, de obicei la adâncimi mai mici de 60 de metri.[1] Supraviețuirea lor depinde de o relație simbiotică cu alge unicelulare fotosintetice, numite zooxanthellae, care trăiesc în țesuturile lor. Aceste alge furnizează coralului majoritatea energiei și nutrienților și sunt responsabile pentru culorile vibrante ale recifelor.[6, 1]</p>
-    <p>În contrast, coralii prețioși (genul *Corallium*), cunoscuți și ca ahermatipici, nu se bazează pe această simbioză și nu au nevoie de lumină solară. Aceștia prosperă în ape mult mai adânci, reci și întunecate, pe funduri stâncoase cu curenți puternici și sedimentare redusă.[2, 7, 8] Această adaptare la medii extreme le permite să dezvolte un schelet dens și colorat uniform, calități care îi fac valoroși pentru prelucrarea în bijuterii.</p>
-    
-    <h3>1.3. Creștere și Formare</h3>
-    <p>Procesul de formare a coralului prețios este extrem de lent, cu o rată de creștere anuală care variază între 0.5 mm și 2 cm.[7, 9] Anumite specii, în condiții ideale, pot crește vertical până la 10 cm pe an, dar aceasta este o excepție.[7] Grosimea ramurilor, un factor important în determinarea valorii, poate varia de la 2-3 mm la 4-5 cm, în funcție de vârsta coloniei și de condițiile de mediu.[7] Această rată de creștere extrem de lentă face ca resursele de coral prețios să fie limitate și extrem de vulnerabile la supra-exploatare. Valoarea economică ridicată a coralului este, astfel, intrinsec legată de fragilitatea sa biologică. Spre deosebire de mineralele care se formează pe scări de timp geologice, coralul este o resursă "vie" a cărei reînnoire, deși posibilă pe o scară de timp umană, este mult prea lentă pentru a susține o recoltare intensivă. Această dinamică creează un cerc vicios: cererea mare duce la exploatare, exploatarea duce la raritate, iar raritatea crește și mai mult valoarea și cererea, alimentând astfel criza de conservare.[10, 11]</p>
-    
-    <h2>2. Caracteristici Fizice și Chimice (Proprietăți Gemologice)</h2>
-    
-    <h3>2.1. Compoziție Chimică</h3>
-    <p>Scheletul coralului prețios este compus în principal din carbonat de calciu ($CaCO_3$), cristalizat sub formă de calcit.[12, 13, 7, 8, 14] Pe lângă componenta anorganică dominantă, structura sa include și o matrice de componente organice, precum proteine dure (conchiolină) și apă, care contribuie la rezistența și structura materialului.[8]</p>
-    
-    <h3>2.2. Duritate</h3>
-    <p>Pe scara de duritate Mohs, coralul are o valoare relativ scăzută, situată între 3 și 4.5.[2, 12, 13, 7, 8, 14, 15] Această moliciune îl face ușor de tăiat, sculptat și șlefuit, permițând realizarea unor detalii fine. Totuși, aceeași caracteristică îl face extrem de vulnerabil la zgârieturi, lovituri și abraziune, necesitând o îngrijire atentă.[8, 16]</p>
-    
-    <h3>2.3. Alte Proprietăți</h3>
-    <p>Proprietățile gemologice ale coralului sunt distinctive și ajută la identificarea sa. Acestea includ:</p>
-    <ul>
-        <li><b>Gravitate Specifică:</b> Variază între 2.60 și 2.70 pentru coralii calcaroși masivi.[12, 7]</li>
-        <li><b>Indice de Refracție ($R.I.$):</b> Se încadrează în intervalul 1.48 - 1.65.[7]</li>
-        <li><b>Luciu:</b> În stare naturală, coralul are un aspect mat, pământos. Prin șlefuire și lustruire, capătă un luciu sticlos, ceros sau uleios, care îi conferă atractivitatea estetică.[2, 8, 14, 16]</li>
-        <li><b>Transparență:</b> Majoritatea coralilor prețioși sunt opaci, dar unele varietăți pot fi semitransparente.[13, 7, 8]</li>
-        <li><b>Structură:</b> O caracteristică definitorie este aspectul său natural poros. Chiar și pe piesele finisate, la o examinare atentă cu lupa, se pot observa modele liniare fine, adâncituri sau mici orificii, asemănătoare unui burete. Acestea sunt urme ale structurii biologice originale și servesc adesea ca indicatori de autenticitate, deosebind coralul natural de imitații.[8, 14, 16]</li>
-    </ul>
-    
-    <table>
-        <caption>Tabel 1: Proprietăți Gemologice ale Coralului Prețios</caption>
-        <thead>
-            <tr>
-                <th>Proprietate</th>
-                <th>Valoare/Descriere</th>
-                <th>Sursă de Referință</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Formula Chimică</td>
-                <td>$CaCO_3$ (Carbonat de calciu)</td>
-                <td>[12, 7]</td>
-            </tr>
-            <tr>
-                <td>Duritate (Scara Mohs)</td>
-                <td>3 - 4.5</td>
-                <td>[2, 7, 8]</td>
-            </tr>
-            <tr>
-                <td>Gravitate Specifică</td>
-                <td>2.60 - 2.70</td>
-                <td>[12, 7]</td>
-            </tr>
-            <tr>
-                <td>Indice de Refracție ($R.I.$)</td>
-                <td>1.48 - 1.65</td>
-                <td>[7]</td>
-            </tr>
-            <tr>
-                <td>Luciu</td>
-                <td>Mat în stare brută; sticlos, ceros sau uleios după prelucrare</td>
-                <td>[8, 16]</td>
-            </tr>
-            <tr>
-                <td>Transparență</td>
-                <td>Opac până la semitransparent</td>
-                <td>[7, 8]</td>
-            </tr>
-        </tbody>
-    </table>
-    
-    <h2>3. Varietăți, Culori și Valoare</h2>
-    
-    <h3>3.1. Spectrul de Culori</h3>
-    <p>Coralul prețios este renumit pentru gama sa de culori calde, care include alb, roz-somon, portocaliu, roșu intens, dar și nuanțe de negru, maro, galben și, foarte rar, albastru.[13, 7, 16, 17] Originea culorii este un proces biologic complex. Culoarea albă, cea mai comună, se datorează unei compoziții aproape pure de carbonat de calciu.[7] Nuanțele de roz, portocaliu și roșu, cele mai căutate, sunt rezultatul pigmenților carotenoizi pe care polipii de coral îi absorb din algele și planctonul cu care se hrănesc.[2, 7] Intensitatea culorii este direct proporțională cu gradul de dezvoltare a exoscheletului; cu cât scheletul este mai matur și mai dens, cu atât culoarea este mai profundă și mai saturată.[7]</p>
-    
-    <h3>3.2. Clasificare și Valoare</h3>
-    <p>Deși există peste 7.000 de specii de corali cunoscute, doar un număr foarte mic, între 8 și 10, sunt clasificate ca fiind prețioase și utilizate în bijuterii.[7] Cea mai valoroasă specie din punct de vedere comercial este *Corallium rubrum*, endemică Mării Mediterane, renumită pentru culoarea sa roșie vibrantă, adesea denumită "sânge de taur".[2, 7] Termenul <strong>"coral nobil"</strong> este un calificativ gemologic care nu se referă la o specie anume, ci la calitatea excepțională a unei piese. Un coral este considerat "nobil" atunci când prezintă o culoare foarte intensă, un ton mediu (nici prea deschis, nici prea închis) și o saturație perfect uniformă, fără pete sau dungi.[7] Aceste exemplare sunt cele mai rare și, prin urmare, cele mai valoroase pe piață.</p>
-    
-    <h3>3.3. Factori de Influență</h3>
-    <p>Calitatea finală a coralului este profund influențată de condițiile de mediu în care a crescut. Temperatura apei, adâncimea și, în special, nivelul de poluare joacă un rol crucial în determinarea culorii, densității și purității scheletului.[7] Ecosistemele marine curate și stabile sunt esențiale pentru formarea coralului de înaltă calitate, ceea ce subliniază încă o dată legătura directă dintre valoarea sa gemologică și sănătatea mediului său natural.</p>
-    
-    <h2>4. Răspândire Geografică și Habitat</h2>
-    
-    <h3>4.1. Zone Principale</h3>
-    <p>Coralul prețios este distribuit la nivel global, dar numai în anumite zone care îndeplinesc condiții specifice de habitat. Cele mai importante surse istorice și actuale sunt:</p>
-    <ul>
-        <li><strong>Marea Mediterană:</strong> Este habitatul speciei *Corallium rubrum* și o sursă tradițională de coral roșu de înaltă calitate. Zonele de recoltare includ coastele Italiei (în special Sardinia și Riviera del Corallo din Alghero), Corsica, Tunisia și Algeria.[2, 7, 17]</li>
-        <li><strong>Pacificul de Vest:</strong> Apele din jurul Japoniei și Taiwanului sunt surse majore pentru diverse specii de *Corallium*, inclusiv varietăți prețioase de culoare roz, roșu-portocaliu ("Momo") și alb ("Shiro").[2, 13, 18]</li>
-        <li><strong>Alte regiuni:</strong> Coralul prețios se mai găsește în apele calde din jurul Australiei, Indiei, Africii și în anumite zone din America de Sud și Insulele Canare.[12, 13, 7]</li>
-    </ul>
-    
-    <h3>4.2. Condiții de Habitat</h3>
-    <p>Spre deosebire de verii lor de recif, coralii prețioși necesită condiții de viață foarte specifice. *Corallium rubrum* din Mediterana crește la adâncimi cuprinse între 10 și 300 de metri, preferând mediile întunecate precum peșterile subacvatice, surplombele și crevasele stâncoase.[2] Speciile din Pacific trăiesc la adâncimi și mai mari, între 350 și 1.500 de metri, în zone cu curenți puternici care le aduc nutrienții necesari.[2, 7] Toate speciile prețioase necesită un substrat stâncos solid pe care să se fixeze și ape cu un nivel redus de sedimentare, deoarece particulele în suspensie le pot sufoca polipii.[2]</p>
-    
-    <h2>5. Recoltare, Conservare și Reglementări</h2>
-    
-    <h3>5.1. Metode de Recoltare</h3>
-    <p>Metodele de recoltare a coralului au evoluat semnificativ, reflectând o conștientizare crescândă a necesității de a proteja această resursă. Istoric, s-au utilizat tehnici extrem de distructive, precum dragarea fundului mării cu plase sau cu un instrument numit "Crucea Sfântului Andrei" (o structură grea de lemn sau oțel târâtă pe fundul mării), care smulgea totul în cale, distrugând iremediabil ecosistemele.[7, 10, 9] Astăzi, în multe regiuni reglementate, aceste metode sunt interzise. Recoltarea sustenabilă se realizează exclusiv de către scafandri profesioniști autorizați, care coboară la adâncimi de peste 50 de metri și selectează manual doar ramurile care au atins o dimensiune matură (de exemplu, un diametru minim de 7 mm la bază).[7] Pentru adâncimile extreme din Pacific, unde scufundările umane sunt imposibile, se utilizează tehnologii avansate, precum minisubmarine și roboți teleghidați cu brațe articulate, care permit o recoltare selectivă.[10, 18]</p>
-    
-    <h3>5.2. Amenințări și Conservare</h3>
-    <p>Principala amenințare la adresa coralului prețios a fost și rămâne supra-exploatarea, care a dus la epuizarea aproape completă a coloniilor din apele de mică adâncime.[19, 10, 11] La aceasta se adaugă amenințările globale care afectează toate ecosistemele marine: schimbările climatice, care duc la încălzirea și acidifierea apelor, și poluarea.[20, 21, 22, 23] Eforturile de conservare se concentrează pe mai multe fronturi. Crearea de arii marine protejate, precum cele din Mediterana, s-a dovedit eficientă în a permite refacerea coloniilor.[2] În paralel, se dezvoltă proiecte de cercetare și restaurare, cum ar fi cele din Taiwan, unde oamenii de știință lucrează la reproducerea artificială a coralilor și la crearea de "pepiniere" subacvatice pentru a reface populațiile afectate.[24, 25]</p>
-    
-    <h3>5.3. Cadrul Legal</h3>
-    <p>Utilizarea coralului natural este din ce în ce mai strict reglementată la nivel internațional. Deși coralul roșu mediteranean nu este încă protejat de Convenția CITES (spre deosebire de coralul negru), există o presiune crescândă pentru o gestionare unificată la nivelul întregii Mediterane, sub egida unor organizații precum FAO.[10, 26] Reglementările nu sunt un concept nou; încă din 1276, Carol I al Siciliei a impus limite asupra pescuitului de coral, recunoscând necesitatea de a proteja resursa.[10] Această tensiune istorică între valoarea economică a unei industrii artizanale profund înrădăcinate cultural (ca cea din Italia sau Taiwan) și necesitatea conservării unei resurse globale fragile definește prezentul și viitorul coralului. Tranziția de la o resursă regională la o marfă globală a intensificat exploatarea, dar a catalizat și o conștiință ecologică globală. Soluțiile viabile nu pot consta doar în interdicții, ci trebuie să implice comunitățile locale în planuri de management sustenabil, transformându-i pe artizani și pescari în gardieni ai resursei de care depind.[26]</p>
-</div>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+            margin: 20px;
+        }
 
-<div id="Istorie" class="tab-content">
-    <h1>Istorie, Artă și Semnificație Culturală</h1>
-    
-    <h2>1. Origini Preistorice și Antice: Talismanul Mărilor</h2>
-    
-    <h3>1.1. Utilizare Timpurie</h3>
-    <p>Fascinația omului pentru coral este una ancestrală. Alături de perle și chihlimbar, coralul se numără printre cele mai vechi geme de natură organică utilizate în scop ornamental și ritualic. Dovezi arheologice atestă prelucrarea și purtarea sa încă din perioada neolitică, cu peste 6.200 de ani în urmă, demonstrând o valoare simbolică profundă ce precede civilizațiile clasice.[7]</p>
-    
-    <h3>1.2. Egiptul Antic</h3>
-    <p>În civilizația egipteană, coralul, în special cel roșu, era investit cu o încărcătură sacră. Era considerat un material cu puteri magice, capabil să ofere protecție împotriva spiritelor rele și a forțelor malefice. Din acest motiv, era frecvent încorporat în amulete și talismane purtate atât de cei vii, cât și de cei morți. Statuete din coral erau adesea plasate în mormintele faraonilor și ale nobililor, cu credința că acestea le vor asigura protecție în călătoria lor în viața de apoi.[23]</p>
-    
-    <h3>1.3. Grecia și Roma Antică</h3>
-    <p>În lumea greco-romană, coralul era extrem de apreciat nu doar pentru frumusețea sa, ci și pentru virtuțile protectoare și vindecătoare care i se atribuiau. Era un simbol puternic al fertilității, al abundenței și al vieții veșnice. Romanii, în special, aveau o tradiție bine stabilită de a atârna mici ramuri de coral la gâtul copiilor pentru a-i feri de boli și de pericole.[2, 23] Plinius cel Bătrân, în lucrarea sa "Naturalis Historia", menționează utilizarea pulberii de coral ca remediu pentru febră, epilepsie, pietre la rinichi și chiar ca antidot împotriva otrăvirii cu venin de șarpe.[2, 7] Originea mitologică a coralului roșu este legată de eroul Perseu și de Meduza. Potrivit legendei, relatată de Ovidiu în "Metamorfoze", după ce Perseu a ucis-o pe Meduza, a așezat capul acesteia pe un pat de alge marine. Sângele care s-a scurs din capul monstrului a îmbibat algele și, la contactul cu apa mării, s-a pietrificat, dând naștere primelor ramuri de coral roșu. Nimfele mării, fascinate de frumusețea sa, au răspândit semințele de coral pe fundul oceanului.[27, 28, 29, 30]</p>
-    
-    <h2>2. Simbolism în Evul Mediu și Renaștere: Protecție și Prestigiu</h2>
-    
-    <h3>2.1. Evul Mediu</h3>
-    <p>Pe parcursul Evului Mediu, credințele în proprietățile magice și protectoare ale coralului au persistat și chiar s-au intensificat. A rămas un material predilect pentru amulete, considerate a fi eficiente în alungarea bolilor, a deochiului și a spiritelor rele.[23] În iconografia creștină, coralul roșu a fost uneori asociat cu sângele lui Hristos, adăugându-i un strat suplimentar de semnificație spirituală și protectoare.</p>
-    
-    <h3>2.2. Renașterea</h3>
-    <p>Renașterea a marcat un punct de cotitură în istoria coralului, transformându-l dintr-un simplu talisman într-un simbol opulent al bogăției și al statutului social. Interesul pentru acest material a fost revitalizat, în special în Italia, unde orașe precum Torre del Greco au devenit centre de excelență în prelucrarea sa.[28, 31] Meșteșugarii italieni și spanioli au început să creeze bijuterii și obiecte de artizanat de o complexitate și o finețe nemaiîntâlnite, de la piepteni și medalioane la cutii de bijuterii elaborate. Purtarea bijuteriilor din coral roșu a devenit un indicator clar al apartenenței la elitele economice și sociale ale vremii.[23]</p>
-    
-    <h2>3. Valoarea în Culturile Asiatice: Sacralitate și Statut</h2>
-    
-    <h3>3.1. Tibet</h3>
-    <p>În cultura tibetană, coralul ocupă un loc de o importanță deosebită, fiind considerat un material sacru, profund legat de spiritualitate, sănătate și prosperitate. Valoarea sa este adesea amplificată prin combinarea cu alte materiale sacre, precum turcoazul și argintul.[23] Culoarea roșie intensă este deosebit de prețuită, fiind un simbol al sângelui lui Buddha și, prin extensie, al vieții, compasiunii și curajului. Datorită proprietăților sale purificatoare, este folosit pentru confecționarea mărgelelor *mala* (șiraguri de rugăciune budiste), considerate a amplifica concentrarea în timpul meditației.[23] Dincolo de semnificația spirituală, coralul avea și o valoare economică imensă. Fiind o resursă rară și dificil de obținut în regiunea himalayană, a devenit un simbol al rafinamentului și al statutului social. Familiile înstărite îl foloseau ca parte importantă a zestrei femeilor sau ca o formă de investiție sigură.[23]</p>
-    
-    <h3>3.2. China</h3>
-    <p>Similar altor culturi, în China imperială, coralul a fost un simbol puternic al bogăției și al unui statut social înalt. Era folosit pentru a decora obiecte de artă, accesorii vestimentare și bijuterii purtate de oficialii de la curte și de membrii familiilor înstărite, semnificând putere și prestigiu.[16, 32]</p>
-    
-    <table>
-        <caption>Tabel 2: Sinteza Utilizărilor Coralului în Culturi Istorice</caption>
-        <thead>
-            <tr>
-                <th>Civilizație/Perioadă</th>
-                <th>Utilizare Primară</th>
-                <th>Simbolism Principal</th>
-                <th>Sursă de Referință</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Egiptul Antic</td>
-                <td>Amuletă, Bijuterie funerară</td>
-                <td>Protecție împotriva răului, Viață de apoi</td>
-                <td>[23]</td>
-            </tr>
-            <tr>
-                <td>Grecia și Roma Antică</td>
-                <td>Amuletă, Bijuterie, Medicină</td>
-                <td>Protecție (în special pentru copii), Fertilitate, Viață veșnică</td>
-                <td>[2, 7, 23]</td>
-            </tr>
-            <tr>
-                <td>Evul Mediu European</td>
-                <td>Amuletă</td>
-                <td>Protecție împotriva bolilor și a deochiului</td>
-                <td>[23]</td>
-            </tr>
-            <tr>
-                <td>Renaștere</td>
-                <td>Bijuterie, Obiect de artă</td>
-                <td>Statut social, Bogăție, Prestigiu</td>
-                <td>[23]</td>
-            </tr>
-            <tr>
-                <td>Tibet</td>
-                <td>Bijuterie, Obiect ritualic, Investiție</td>
-                <td>Spiritualitate, Sănătate, Prosperitate, Compasiune (Sângele lui Buddha)</td>
-                <td>[23]</td>
-            </tr>
-            <tr>
-                <td>China</td>
-                <td>Bijuterie, Obiect decorativ</td>
-                <td>Bogăție, Statut social înalt, Putere</td>
-                <td>[16]</td>
-            </tr>
-        </tbody>
-    </table>
-    
-    <h2>4. Coralul în Lumea Modernă: De la Artizanat la Reglementare</h2>
-    
-    <h3>4.1. Bijuteria Contemporană</h3>
-    <p>În epoca modernă, coralul continuă să fie un material apreciat pentru bijuterii și obiecte decorative. Cu toate acestea, percepția sa a fluctuat. În secolele XIX și XX, popularitatea sa imensă în Italia a dus la o asociere cu "bijuteria turistică", ceea ce a determinat unele case de bijuterii de lux din Paris, precum Cartier, să îl utilizeze mai sporadic, pentru a-și menține un aer de exclusivitate.[10] Totuși, în anii '60, a existat o revenire spectaculoasă, designerii folosind coral de înaltă calitate în piese statement, adesea în combinații îndrăznețe cu alte pietre prețioase precum smaraldele sau turcoazul.[10]</p>
-    
-    <h3>4.2. Piața Actuală</h3>
-    <p>Astăzi, piața coralului este definită de o tensiune fundamentală între tradiție și ecologie. Pe de o parte, valoarea sa istorică și estetică menține o cerere constantă. Pe de altă parte, conștientizarea fragilității ecosistemelor marine a dus la reglementări internaționale din ce în ce mai stricte privind recoltarea.[23] Această dinamică reflectă o schimbare majoră în percepția resurselor naturale. Dacă în trecut valoarea coralului era dată de raritatea sa geografică și de dificultatea extragerii, astăzi valoarea sa este amplificată de raritatea impusă de necesitatea conservării. Povestea coralului în ultimii 50 de ani devine astfel o micro-istorie a globalizării și a ascensiunii conștiinței ecologice: o resursă cândva regională a devenit o marfă globală, a cărei exploatare a necesitat intervenții globale pentru a preveni epuizarea. Acest context a dus la creșterea valorii pieselor de epocă și la o piață înfloritoare pentru imitații și materiale tratate.[7, 23]</p>
-</div>
+      .main-title {
+            color: #e75925;
+            text-align: center;
+            font-size: 2.8em;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
 
-<div id="Terapie" class="tab-content">
-    <h1>Aplicații Terapeutice: De la Tradiție la Știință</h1>
+      .tab-container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
 
-    <h2>1. Utilizări în Medicinele Tradiționale</h2>
+      .tab-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            border-bottom: 2px solid #e75925;
+        }
 
-    <h3>1.1. Medicina Ayurvedică (India)</h3>
-    <p>În sistemul medical tradițional indian, Ayurveda, coralul, cunoscut sub numele de <em>Pravala</em>, este clasificat printre cele nouă geme prețioase (*ratnas*) și este utilizat pe scară largă ca sursă naturală de calciu. Nu este folosit în stare brută, ci este procesat în două forme principale: <strong>Praval Bhasma</strong> și <strong>Praval Pishti</strong>.</p>
-    <ul>
-        <li><strong>Praval Bhasma</strong> este o pulbere fină (calx) obținută printr-un proces complex de purificare și calcinare (incinerare). Studiile moderne au arătat că acest preparat este eficient în prevenirea pierderii osoase asociate cu deficiența de calciu și estrogen, justificând utilizarea sa tradițională în tratamentul osteoporozei și al altor tulburări metabolice osoase.[33]</li>
-        <li><strong>Praval Pishti</strong> este o pastă sau o pulbere foarte fină, obținută prin triturarea (măcinarea) îndelungată a coralului purificat cu apă de trandafiri (*Gulab jal*), fără a utiliza focul. Acest proces este considerat a-i conferi proprietăți de răcire (*pitta shamaka*), fiind indicat pentru afecțiuni asociate cu excesul de căldură în corp, precum hiperaciditatea (*Amlapitta*), febra, arsurile și diverse afecțiuni digestive.</li>
-    </ul>
-    <p>Ambele preparate sunt utilizate pentru a trata o gamă largă de afecțiuni, inclusiv sângerări menstruale abundente, afecțiuni oculare (*Netra Roga*), boli cardiace (*Hridaya Roga*), tuse și pentru a îmbunătăți sistemul imunitar.</p>
+      .tab-button {
+            background-color: #ff7f50;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            cursor: pointer;
+            font-size: 1.1em;
+            font-weight: 700;
+            transition: background-color 0.3s;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+            margin-right: 5px;
+            outline: none;
+        }
 
-    <h3>1.2. Medicina Tradițională Chineză (MTC) și Tibetană</h3>
-    <p>În MTC, coralul este clasificat ca având un gust dulce și o natură neutră ("flat"), ceea ce îl face un remediu echilibrant. Este utilizat în principal pentru afecțiuni oculare, în special pentru tratarea opacității corneene. De asemenea, i se atribuie proprietăți de calmare a minții și a spiritului (*tranquilize the mind*), fiind folosit în tratamentul epilepsiei. Pulberea de coral este un remediu hemostatic, utilizat pentru a opri sângerările nazale, și un agent de dispersare a stazei de sânge.</p>
-    <p>Coralul este un ingredient cheie în mai multe formule medicinale complexe, atât în MTC, cât și în medicina tibetană și mongolă. Preparate precum *Ershiwuwei Shanhu pills* și *Shanhu Qishiwei pills* sunt utilizate pe scară largă pentru tratamentul afecțiunilor neurologice, inclusiv migrene, dureri de cap primare, epilepsie, sechele post-infarct cerebral și hipertensiune.</p>
+      .tab-button:hover {
+            background-color: #e75925;
+        }
 
-    <h2>2. Aplicații în Medicina Modernă și Cercetare</h2>
+      .tab-button.active {
+            background-color: #fff;
+            color: #e75925;
+            border: 2px solid #e75925;
+            border-bottom: 2px solid #fff;
+            position: relative;
+            top: 2px;
+            margin-bottom: -2px;
+        }
 
-    <h3>2.1. Grefe Osoase și Inginerie Tisulară</h3>
-    <p>Una dintre cele mai remarcabile aplicații ale coralului în medicina modernă este utilizarea sa ca material pentru grefe osoase. Această utilizare se bazează pe o descoperire fundamentală: microstructura coralului este extraordinar de similară cu cea a osului uman spongios. Scheletul de coral posedă o rețea tridimensională de pori interconectați, cu diametre cuprinse între 0.05 și 2.0 mm, care imită perfect arhitectura osoasă. Această structură poroasă acționează ca un *scaffold* (schelet de susținere) ideal pentru regenerarea osoasă. Atunci când este implantat, coralul este biocompatibil și osteoconductiv, ceea ce înseamnă că nu provoacă reacții de respingere din partea organismului și permite celulelor osoase (osteoblaste) să adere și să prolifereze pe suprafața sa. Porii permit pătrunderea vaselor de sânge, care aduc nutrienți și factori de creștere, facilitând formarea de țesut osos nou. Treptat, materialul de coral este resorbit de către osteoclaste și înlocuit complet de os natural, viu. Datorită acestor proprietăți, coralul este utilizat cu succes în chirurgia ortopedică, maxilo-facială și dentară pentru a repara defecte osoase, a umple goluri după extracții sau a corecta deformări.</p>
+      .tab-content {
+            display: none;
+            padding: 25px;
+            border: 2px solid #e75925;
+            border-top: none;
+            background-color: #fff;
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+            animation: fadeIn 0.5s;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
 
-    <h3>2.2. Studii Farmacologice și Clinice</h3>
-    <p>Cercetarea științifică modernă a început să valideze multe dintre utilizările tradiționale ale coralului, izolând și analizând compușii săi bioactivi. Studiile au identificat o varietate de substanțe, în special terpenoizi și steroizi, extrase din diverse specii de corali (în special corali moi), care prezintă activități farmacologice semnificative. Acestea includ proprietăți anti-tumorale și citotoxice (împotriva celulelor canceroase), anti-inflamatorii, analgezice, antibacteriene, antivirale, antioxidante și imunosupresoare. Aceste descoperiri nu doar că oferă o bază științifică pentru medicina tradițională, dar deschid și noi direcții în descoperirea de medicamente, coralii fiind o sursă promițătoare de compuși-lider pentru dezvoltarea de noi terapii.</p>
+      .tab-content.active {
+            display: block;
+        }
 
-    <h2>3. Dimensiunea Spirituală și Metafizică</h2>
+      .tab-content h2 {
+            color: #e75925;
+            font-size: 2em;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
 
-    <h3>3.1. Echilibrarea Energetică și Cristaloterapia</h3>
-    <p>În domeniul terapiilor alternative, coralul este considerat o piatră a păcii, transformării și echilibrului emoțional. Se crede că energia sa, provenită din adâncurile oceanului, are un efect calmant și purificator, ajutând la eliberarea de gânduri negative, frici și anxietate.[13, 16, 11, 34, 35, 36, 37] În cristaloterapie, diferitele culori ale coralului sunt asociate cu diverse centre energetice ale corpului, cunoscute sub numele de chakre [13, 23, 15]:</p>
-    <ul>
-        <li><strong>Coralul Roșu</strong> este asociat cu <strong>Chakra Rădăcină (Muladhara)</strong>, situată la baza coloanei vertebrale. Această chakră guvernează stabilitatea, siguranța, supraviețuirea și conexiunea cu lumea materială. Se crede că purtarea coralului roșu ancorează energia, sporește vitalitatea și înlătură fricile legate de insecuritate.[23, 15, 38]</li>
-        <li><strong>Coralul Portocaliu</strong> rezonează cu <strong>Chakra Sacrală (Svadhisthana)</strong>, centrul creativității, al pasiunii și al energiei sexuale. Este folosit pentru a debloca fluxul creativ și pentru a armoniza emoțiile.</li>
-        <li><strong>Coralul Roz</strong> este legat de <strong>Chakra Gâtului (Vishuddha)</strong>, centrul comunicării. Susține exprimarea de sine autentică, onestitatea și claritatea în comunicare.[23]</li>
-        <li><strong>Coralul Verde</strong> este asociat cu <strong>Chakra Inimii (Anahata)</strong>. Energia sa calmantă ajută la vindecarea rănilor emoționale, la deschiderea inimii către iubire necondiționată și la cultivarea compasiunii.[23]</li>
-        <li><strong>Coralul Alb</strong> corespunde <strong>Chakrei Coroanei (Sahasrara)</strong>, centrul conexiunii spirituale. Simbolizează puritatea, iluminarea și claritatea spirituală, ajutând la aprofundarea meditației și la conectarea cu conștiința superioară.[12, 23]</li>
-    </ul>
+      .tab-content h3 {
+            color: #e75925;
+            font-size: 1.6em;
+            margin-top: 20px;
+        }
+        
+      .tab-content h4 {
+            color: #e75925;
+            font-size: 1.3em;
+            margin-top: 15px;
+        }
+        
+        p, li {
+            text-align: justify;
+        }
 
-    <h3>3.2. Astrologia Vedică (Jyotish)</h3>
-    <p>În astrologia hindusă, Jyotish, coralul roșu, cunoscut ca *Moonga* sau *Praval*, este gema planetară pentru Marte (*Mangal*). Marte este planeta energiei, a acțiunii, ambiției, curajului și a forței fizice, dar și a conflictului și agresiunii.[7, 15, 39, 40, 41, 42] Purtarea unui coral roșu natural, de preferință într-un inel de cupru sau aur pe degetul inelar, este recomandată pentru a întări un Marte slăbit în harta natală sau pentru a canaliza pozitiv energia sa. Se crede că aduce beneficii precum creșterea determinării și a calităților de lider, protecție împotriva dușmanilor și a accidentelor, purificarea sângelui și depășirea stărilor de depresie sau letargie.</p>
+      .bibliography-container {
+            column-count: 2;
+            column-gap: 40px;
+            font-size: 0.8em;
+        }
 
-    <h3>3.3. Principii Feng Shui</h3>
-    <p>În arta chineză a armonizării spațiilor, Feng Shui, coralul este utilizat pentru a atrage energie pozitivă (*Chi*), succes și prosperitate.[34] Culoarea sa vibrantă, în special roșu și portocaliu, este asociată cu Elementul Foc, care guvernează pasiunea, recunoașterea și energia. Prin urmare, obiectele din coral sunt plasate strategic pentru a activa anumite zone ale hărții Bagua. De exemplu, un obiect din coral roșu sau roz poate fi plasat în sectorul de Sud-Vest al casei pentru a activa zona Dragostei și Căsătoriei, sau în sectorul de Sud pentru a spori Faima și Reputația.</p>
+      .bibliography-container ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
 
-    <table>
-        <caption>Tabel 3: Corespondența Energetică a Coralului în Diverse Sisteme Ezoterice</caption>
-        <thead>
-            <tr>
-                <th>Culoare Coral</th>
-                <th>Sistem Ezoteric</th>
-                <th>Denumire Asociată</th>
-                <th>Simbolism/Beneficii</th>
-                <th>Sursă de Referință</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Roșu</td>
-                <td>Cristaloterapie</td>
-                <td>Chakra Rădăcină (Muladhara)</td>
-                <td>Stabilitate, vitalitate, siguranță, curaj</td>
-                <td>[23, 38]</td>
-            </tr>
-            <tr>
-                <td>Roșu</td>
-                <td>Astrologie Vedică</td>
-                <td>Planeta Marte (Mangal)</td>
-                <td>Energie, ambiție, protecție, determinare</td>
-                <td>[15, 39]</td>
-            </tr>
-            <tr>
-                <td>Portocaliu</td>
-                <td>Cristaloterapie</td>
-                <td>Chakra Sacrală (Svadhisthana)</td>
-                <td>Creativitate, pasiune, bucurie de a trăi</td>
-                <td>[23, 43]</td>
-            </tr>
-            <tr>
-                <td>Roz</td>
-                <td>Cristaloterapie</td>
-                <td>Chakra Gâtului (Vishuddha)</td>
-                <td>Comunicare autentică, exprimare de sine</td>
-                <td>[23]</td>
-            </tr>
-            <tr>
-                <td>Roz/Roșu</td>
-                <td>Feng Shui</td>
-                <td>Element Foc/Pământ (Zona Dragostei)</td>
-                <td>Armonie în relații, atragerea unui partener</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Alb</td>
-                <td>Cristaloterapie</td>
-                <td>Chakra Coroanei (Sahasrara)</td>
-                <td>Puritate, conexiune spirituală, iluminare</td>
-                <td>[12, 23]</td>
-            </tr>
-        </tbody>
-    </table>
-</div>
+      .bibliography-container li {
+            margin-bottom: 10px;
+            word-wrap: break-word;
+            text-align: left;
+        }
 
-<div id="Ghid" class="tab-content">
-    <h1>Ghid Practic: Identificare, Prelucrare și Îngrijire</h1>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
 
-    <h2>1. Autentificare și Tratamente</h2>
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
 
-    <h3>1.1. Metode de Identificare</h3>
-    <p>Identificarea coralului autentic este crucială, având în vedere numărul mare de imitații de pe piață. Metoda de bază, accesibilă oricui, este examinarea vizuală cu o lupă gemologică (mărire 10x). Coralul natural va prezenta aproape întotdeauna o structură fină, poroasă, cu modele de creștere sub formă de linii paralele sau mici adâncituri, chiar și pe suprafețele perfect lustruite. Acestea sunt amprentele originii sale biologice.[7, 16] Imitațiile din sticlă sau plastic vor avea un aspect perfect omogen, fără aceste texturi naturale. Teste mai avansate, efectuate în laboratoare gemologice, includ spectroscopia și analiza cu instrumente precum RAMAN și FTIR, care pot determina compoziția chimică exactă a materialului. Un test simplu, dar care trebuie efectuat cu prudență, este aplicarea unei picături de acetonă pe o zonă discretă; coralul vopsit de calitate inferioară se poate decolora.[7]</p>
+        th {
+            background-color: #f2f2f2;
+            color: #e75925;
+        }
+        
+        @media (max-width: 768px) {
+           .bibliography-container {
+                column-count: 1;
+            }
+           .tab-buttons {
+                flex-direction: column;
+            }
+           .tab-button {
+                width: 100%;
+                border-radius: 0;
+                margin-right: 0;
+                border-bottom: 1px solid #e75925;
+            }
+           .tab-button.active {
+                border: 2px solid #e75925;
+                border-bottom: 2px solid #fff;
+            }
+        }
+    </style>
+</head>
+<body>
 
-    <h3>1.2. Tratamente Comune</h3>
-    <p>Pentru a îmbunătăți aspectul coralului de calitate inferioară sau pentru a-i conferi o culoare mai dezirabilă, se aplică diverse tratamente. Cunoașterea acestora este esențială pentru o evaluare corectă a prețului:</p>
-    <ul>
-        <li><strong>Vopsirea:</strong> Este cel mai comun tratament, folosit pentru a intensifica o culoare palidă sau pentru a schimba complet culoarea coralului alb. Vopseaua pătrunde în porii materialului.</li>
-        <li><strong>Ceruirea și Impregnarea cu Polimeri:</strong> Aceste tehnici sunt folosite pentru a umple porii și fisurile de la suprafață. Acest lucru nu doar că îmbunătățește luciul, dar și stabilizează materialul, făcându-l mai puțin fragil.[7]</li>
-        <li><strong>Placarea (Coating):</strong> Implică aplicarea unui strat subțire de polimer colorat la suprafața piesei pentru a-i conferi un aspect uniform și lucios.[7]</li>
-    </ul>
-    <p>În comerțul cu geme, aceste tratamente sunt considerate acceptabile, cu condiția ca vânzătorul să informeze corect și complet cumpărătorul despre prezența lor.[7]</p>
+    <h1 class="main-title">Coralul: comoara organică a mărilor</h1>
 
-    <h3>1.3. Imitații și Simulante</h3>
-    <p>Datorită rarității și a prețului ridicat al coralului de calitate superioară, piața este inundată de imitații, cunoscute și ca simulante. Acestea pot fi realizate dintr-o varietate de materiale, inclusiv sticlă colorată, plastic, rășini, os sau fildeș vopsit, și diverse materiale compozite (pulbere de calcit amestecată cu lianți). Cererea mare de pe piețele din Orientul Îndepărtat a stimulat în mod special producția acestor substitute.[7]</p>
+    <div class="tab-container">
+        <div class="tab-buttons">
+            <button class="tab-button active" onclick="openTab(event, 'profil')">Profil gemologic și biologic</button>
+            <button class="tab-button" onclick="openTab(event, 'istorie')">Istorie, mit și artizanat</button>
+            <button class="tab-button" onclick="openTab(event, 'spiritualitate')">Semnificații spirituale</button>
+            <button class="tab-button" onclick="openTab(event, 'terapeutic')">Utilizări terapeutice</button>
+            <button class="tab-button" onclick="openTab(event, 'bibliografie')">Bibliografie</button>
+        </div>
 
-    <h2>2. Arta Prelucrării Coralului</h2>
+        <div id="profil" class="tab-content active">
+            <h2>Gema din adâncuri: profil gemologic și biologic</h2>
+            <p>Spre deosebire de smaralde, diamante sau rubine, care își au originea în adâncurile pământului, coralul este o gemă organică, un dar al mării. El nu este o rocă minerală, ci scheletul calcaros al unor mici creaturi marine numite polipi. Această origine biologică îi conferă un set unic de proprietăți și o fragilitate aparte, plasându-l într-o categorie specială alături de perle și chihlimbar.[1, 2, 3]</p>
 
-    <h3>2.1. De la Ramură la Bijuterie</h3>
-    <p>Transformarea unei ramuri de coral brut într-o bijuterie finită este un proces artizanal care necesită îndemânare și precizie. Primul pas constă în tăierea ramurilor recoltate în bucăți mai mici, manevrabile, adesea cu ajutorul unor ferăstraie circulare fine.[18] Urmează etapele de șlefuire și lustruire, care elimină stratul exterior mat și scot la iveală culoarea vibrantă și luciul sticlos al materialului.[14, 16] Acest proces este unul laborios și implică o pierdere semnificativă de material brut, uneori între 50% și 75%, ceea ce contribuie la costul final al piesei.[18]</p>
+            <h3>Dincolo de piatră: natura biologică a coralului</h3>
+            <p>Coralul prețios, utilizat în bijuterii de mii de ani, este produs de specii din genul <em>Corallium</em>, cea mai renumită fiind <em>Corallium rubrum</em>, cunoscută și sub denumirea de coral roșu mediteranean.[4, 5, 6] Acești polipi, animale minuscule cu corp moale și tentacule, trăiesc în colonii dense, asemănătoare unor arbuști subacvatici, atașați de substraturi stâncoase.[7, 8]</p>
+            <h4>Procesul de formare</h4>
+            <p>Fiecare polip secretă un exoschelet dur, compus în principal din carbonat de calciu ($CaCO_3$) sub formă de calcit, extras din apa mării.[9, 7, 6] De-a lungul a sute și chiar mii de ani, scheletele individuale se unesc, formând structura ramificată pe care o cunoaștem drept coral.[7, 8] Rata de creștere este extrem de lentă, adesea de doar câțiva milimetri pe an în diametru.[7, 6] Această dezvoltare seculară nu este doar un detaliu biologic, ci însăși fundația valorii economice și a vulnerabilității ecologice a coralului. O colonie matură, aptă pentru recoltare, poate reprezenta secole de dezvoltare neîntreruptă, transformând fiecare piesă într-o "gemă a timpului". Acest ritm natural lent intră într-un conflict direct cu cererea umană accelerată, generând o tensiune care explică atât prețul ridicat al coralului de calitate, cât și riscul constant de supraexploatare.[10, 11]</p>
+            <h4>Habitat și răspândire</h4>
+            <p>Coralul prețios prosperă în condiții foarte specifice: ape curate, cu salinitate constantă, curenți moderați și, cel mai important, luminozitate redusă. De aceea, se găsește la adâncimi considerabile, de la 10-30 de metri până la peste 300 de metri, adesea în grote submarine sau pe versanți stâncoși umbriți.[4, 7, 12] Principalele zone de recoltare pentru <em>Corallium rubrum</em> sunt în Marea Mediterană, în special în largul coastelor Sardiniei, Siciliei și Tunisiei.[4, 13] Alte specii valoroase de <em>Corallium</em> se găsesc în Pacificul de Vest, în apele din jurul Japoniei și Taiwanului, la adâncimi care pot ajunge până la 1500 de metri.[4]</p>
 
-    <h3>2.2. Tehnici de Modelare</h3>
-    <p>Datorită durității sale scăzute, coralul se pretează la o varietate de tehnici de modelare:</p>
-    <ul>
-        <li><strong>Prelucrare mecanică:</strong> Utilizată în principal pentru producția în masă de mărgele sferice sau de alte forme simple.[18]</li>
-        <li><strong>Tăierea Cabochon:</strong> Cea mai comună formă pentru coral, constă într-o tăietură rotunjită, fără fațete, care pune în valoare cel mai bine culoarea și luciul materialului.[17]</li>
-        <li><strong>Sculptura și Gravarea:</strong> Tehnicile manuale permit crearea unor piese unice și complexe. Artizanii pot sculpta coralul în forme figurative, precum flori, animale sau camee (portrete în relief), transformând fiecare bucată într-o mică operă de artă.[17, 18, 44, 45]</li>
-    </ul>
+            <h3>Caracteristici fizice și chimice: amprenta gemologică</h3>
+            <p>Proprietățile fizice și chimice ale coralului determină atât frumusețea sa, cât și modul în care trebuie manipulat și îngrijit. Fiind o gemă relativ moale, este vulnerabilă la zgârieturi, abraziune și acțiunea substanțelor chimice, cum ar fi acizii din parfumuri, produsele cosmetice sau chiar transpirația acidă.[1, 13, 2]</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Proprietate</th>
+                        <th>Valoare</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Familie</strong></td>
+                        <td>Gemă organică [2]</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Compoziție chimică</strong></td>
+                        <td>Carbonat de calciu ($CaCO_3$), cu urme de carotenoizi [9, 2]</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Duritate (scara Mohs)</strong></td>
+                        <td>3 – 4 [7, 14, 2, 3]</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Indice de refracție</strong></td>
+                        <td>1.48 – 1.65 [7, 2]</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Densitate specifică</strong></td>
+                        <td>2.60 – 2.70 [7, 2]</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Luciu</strong></td>
+                        <td>Mat în stare naturală; vitros (sticlos) după lustruire [1, 14]</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Transparență</strong></td>
+                        <td>Opac spre semi-translucid [7, 14]</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Structură</strong></td>
+                        <td>Amorfă, cu o textură fină, fibroasă, vizibilă la mărire [15]</td>
+                    </tr>
+                </tbody>
+            </table>
 
-    <h3>2.3. Centre de Prelucrare</h3>
-    <p>De-a lungul istoriei, anumite regiuni s-au specializat în prelucrarea coralului, devenind renumite la nivel mondial pentru măiestria artizanilor lor. Cel mai faimos centru este, fără îndoială, <strong>Torre del Greco</strong>, un oraș de lângă Napoli, Italia. Acest oraș prelucrează o mare parte din coralul roșu mediteranean și are o tradiție neîntreruptă în acest meșteșug, datând de secole, având chiar și școli dedicate formării noilor generații de artizani.[28, 18, 26, 31]</p>
+            <h3>Paleta de culori a mării: de la roșu intens la "piele de înger"</h3>
+            <p>Spectrul de culori al coralului prețios este variat, incluzând nuanțe de roșu, portocaliu, roz, alb și, mult mai rar, negru sau albastru.[7, 13, 2]</p>
+            <h4>Originea culorii</h4>
+            <p>Culoarea distinctivă a coralului roșu și roz este dată de prezența pigmenților carotenoizi, pe care polipii îi asimilează din algele și planctonul cu care se hrănesc.[4, 7] Intensitatea culorii depinde de factori precum adâncimea, temperatura apei și tipul de nutrienți disponibili.[7] Coralul alb, pe de altă parte, este format aproape exclusiv din carbonat de calciu pur, fără pigmenți organici semnificativi.[7]</p>
+            <h4>Conceptul de "coral nobil"</h4>
+            <p>În gemologie, termenul "coral nobil" se referă la exemplarele de cea mai înaltă calitate. Acestea sunt definite printr-o culoare intensă și uniform distribuită, fără pete, fisuri sau variații de nuanță.[7] Cele mai valoroase culori sunt roșul-sângeriu intens, cunoscut în Italia ca "Moro", și rozul-somon delicat, denumit poetic "pelle d'angelo" (piele de înger).[4, 16]</p>
 
-    <h2>3. Recomandări de Îngrijire și Întreținere</h2>
+            <h3>Autenticitate și îmbunătățiri: distingerea adevărului de fals</h3>
+            <p>Datorită rarității și valorii sale, coralul a fost imitat de-a lungul timpului folosind materiale precum sticla, plasticul, osul sau scoica vopsită. Identificarea coralului autentic se bazează pe câteva caracteristici cheie.</p>
+            <h4>Metode de identificare</h4>
+            <ul>
+                <li><strong>Examinarea la lupă:</strong> O examinare cu o lupă gemologică (mărire 10x) va dezvălui o structură fină, longitudinală, asemănătoare fibrelor de lemn, care este specifică coralului natural. Imitațiile din sticlă pot prezenta mici bule de aer, în timp ce cele din plastic pot avea urme de turnare.[7, 15]</li>
+                <li><strong>Teste simple:</strong> Deși nu sunt infailibile, unele teste pot oferi indicii. O picătură de suc de lămâie sau oțet aplicată pe o zonă discretă va provoca o efervescență vizibilă la coralul autentic, datorită reacției acidului cu carbonatul de calciu.[15] De asemenea, se spune că scufundarea într-un pahar cu lapte poate determina o ușoară nuanțare a laptelui în roz sau roșu.[15]</li>
+            </ul>
+            <h4>Tratamente comune</h4>
+            <p>Multe piese de coral de pe piață sunt tratate pentru a le îmbunătăți aspectul. Cele mai frecvente proceduri includ vopsirea pentru a intensifica o culoare pală, impregnarea cu rășini sau polimeri pentru a umple fisurile și a spori durabilitatea, și ceruirea pentru a îmbunătăți luciul. Un gemolog poate identifica aceste tratamente, iar vânzătorii onești trebuie să le declare în momentul vânzării.</p>
+        </div>
 
-    <h3>3.1. Vulnerabilități</h3>
-    <p>Fiind un material organic compus din carbonat de calciu, coralul este extrem de sensibil. Principalii săi dușmani sunt <strong>acizii</strong> și <strong>substanțele chimice</strong>. Contactul cu substanțe acide, chiar și slabe, precum oțetul, sucul de lămâie sau transpirația acidă, poate coroda suprafața, lăsând pete mate, ireversibile.[17] De asemenea, trebuie evitat contactul cu produse cosmetice (parfumuri, fixativ pentru păr), clorul din piscine, detergenții și orice alt produs chimic agresiv, deoarece acestea pot duce la decolorare și deteriorare.[14, 16, 17, 46, 47] Căldura excesivă și expunerea prelungită la lumina directă a soarelui pot, de asemenea, să-i afecteze culoarea și să-l facă casant.[13, 16]</p>
+        <div id="istorie" class="tab-content">
+            <h2>Istorie, mit și artizanat</h2>
+            <p>Fascinația omului pentru coral este la fel de veche ca civilizația însăși. De la amulete protectoare găsite în morminte preistorice la bijuteriile elaborate ale curților regale europene, coralul a traversat istoria ca un simbol al puterii, al protecției și al frumuseții venite din adâncuri.[4]</p>
+            
+            <h3>O cronică milenară: coralul în civilizațiile lumii</h3>
+            <h4>Preistorie și antichitate</h4>
+            <p>Utilizarea coralului în scop ornamental datează de peste 6.200 de ani, din perioada neolitică.[7] În Egiptul Antic, era considerat un material sacru, cu puteri magice, iar mărgele de coral erau plasate în mormintele faraonilor pentru a-i proteja în viața de apoi.[17] Grecii și romanii îl prețuiau enorm, folosindu-l nu doar pentru bijuterii, ci și ca amulete pentru copii, crezând că îi apără de boli și pericole.[4, 17] Era un simbol al fertilității și al vieții veșnice, iar Plinius cel Bătrân menționează comerțul intens cu coral între Mediterana și India, unde era la fel de prețuit ca perlele.[4]</p>
+            <h4>Evul mediu și Renașterea</h4>
+            <p>În Evul Mediu, credința în proprietățile protectoare ale coralului a persistat, fiind adesea încorporat în rozarii și obiecte religioase.[4, 17] Renașterea a adus o explozie a interesului pentru coral, în special în Italia. Centre de prelucrare precum Trapani, Genova și, mai târziu, Torre del Greco au devenit faimoase pentru măiestria artizanilor lor.[18] Coralul roșu, montat în aur, a devenit un simbol opulent al bogăției și al statutului social, fiind purtat de nobili și de clerici de rang înalt.[17]</p>
+            <h4>Tradiții orientale și epoca victoriană</h4>
+            <p>În cultura tibetană, coralul roșu deține un loc special, fiind considerat sacru și asociat cu vitalitatea și energia spirituală. Adesea combinat cu turcoaz și argint, este folosit în bijuterii ritualice și mala-uri (rozarii budiste), culoarea sa roșie simbolizând sângele lui Buddha, un simbol al compasiunii și curajului.[17] În China, a fost mult timp un indicator al rangului social înalt.[1] Popularitatea sa în Europa a atins un nou apogeu în secolul al XIX-lea. În epoca victoriană, bijuteriile din coral sculptat, în special cameele și piesele elaborate cu motive florale, erau extrem de la modă, fiind adesea aduse ca suveniruri de către aristocrații care efectuau "Marele Tur" al Italiei.[11]</p>
 
-    <h3>3.2. Reguli de Purtare și Depozitare</h3>
-    <p>Pentru a prelungi viața bijuteriilor cu coral, se recomandă respectarea unor reguli simple:</p>
-    <ul>
-        <li>Bijuteriile cu coral ar trebui să fie ultimul lucru pe care îl puneți dimineața (după aplicarea cosmeticelor) și primul lucru pe care îl dați jos seara.</li>
-        <li>Îndepărtați bijuteriile înainte de a face baie, duș, a înota sau a desfășura activități casnice sau sportive.[46]</li>
-        <li>Depozitați piesele cu coral separat de alte bijuterii (în special de cele cu pietre mai dure, precum diamantele sau safirele) pentru a preveni zgârieturile. Ideal este să fie păstrate în pungi individuale din material moale sau în cutii de bijuterii cu compartimente căptușite.[16, 46, 47]</li>
-    </ul>
+            <h3>Legendele mării: mitul sângelui Meduzei</h3>
+            <p>Originea misterioasă a coralului a dat naștere uneia dintre cele mai poetice legende din mitologia greco-romană, narată de Ovidiu în "Metamorfozele" sale.[19, 20] Legenda spune că, după ce eroul Perseu a ucis-o pe Meduza, gorgona cu păr de șerpi a cărei privire împietrea orice ființă, a așezat capul acesteia pe un pat de alge pe malul mării. Sângele care s-a scurs din capul Meduzei, în contact cu apa sărată și cu algele, s-a întărit și s-a transformat în ramuri de un roșu intens – primul coral.[16, 21]</p>
+            <p>Acest mit este mai mult decât o simplă poveste; el funcționează ca o formă de proto-știință și o metaforă profundă a transformării. Anticii se confruntau cu un material ambiguu: creștea ca o plantă, dar era dur ca o piatră, și avea culoarea sângelui, un simbol inconfundabil al vieții animale. Mitul oferă o explicație supranaturală pentru aceste caracteristici contradictorii. Transformarea sângelui fluid în "piatră" solidă este o analogie perfectă pentru procesul de calcifiere și pentru percepția că coralul este moale și viu în apă, dar devine dur și inert odată scos la aer. Mai mult, se produce o inversare simbolică extraordinară: Meduza, o creatură a morții care transforma viața în piatră, dă naștere, prin propria moarte, unei substanțe care protejează și susține viața, devenind o amuletă prețioasă pentru nou-născuți. Această transformare de la distrugător la protector reflectă o înțelegere arhetipală a ciclurilor de viață, moarte și renaștere, ancorând profund semnificația coralului în psihicul uman.</p>
 
-    <h3>3.3. Metode de Curățare</h3>
-    <p>Curățarea coralului trebuie făcută cu maximă delicatețe. Cea mai sigură metodă este ștergerea periodică cu o cârpă moale, curată și uscată. Dacă este necesară o curățare mai profundă, se poate folosi o cârpă ușor umezită în apă călduță, fără săpun sau detergenți. După curățare, piesa trebuie uscată imediat cu o altă cârpă moale.[16, 17] Nu folosiți niciodată perii aspre, aparate de curățat cu ultrasunete sau soluții chimice pentru bijuterii. Pentru "curățarea energetică", în practicile de cristaloterapie, se recomandă plasarea coralului într-un vas cu sare de mare uscată, peste noapte, fără a folosi apă.[13]</p>
-</div>
+            <h3>Arta prelucrării: de la ramură la bijuterie</h3>
+            <p>Transformarea coralului brut, mat și neregulat, într-o gemă lustruită este un proces care necesită o măiestrie considerabilă. Artizanii, în special cei din centrul istoric Torre del Greco, lângă Napoli, au perfecționat aceste tehnici de-a lungul secolelor.[22, 18]</p>
+            <p>Procesul începe cu sortarea ramurilor brute după culoare, dimensiune și calitate. Ramurile sunt apoi tăiate cu ferăstraie circulare fine în segmente mai mici. Aceste segmente sunt modelate fie mecanic, pentru a produce mărgele sferice sau ovale (caboșoane), fie manual, de către un maestru sculptor, pentru a crea forme complexe, cum ar fi camee, flori sau figurine.[13, 23] Datorită durității sale scăzute, coralul se pretează excelent la sculptură detaliată.[11] Etapa finală este lustruirea, realizată cu o serie de materiale abrazive din ce în ce mai fine, care îi conferă luciul sticlos caracteristic.[1] În timpul acestui proces, se poate pierde între 50% și 75% din materialul brut, ceea ce contribuie la valoarea piesei finite.[23]</p>
+
+            <h3>O resursă prețioasă, o responsabilitate modernă</h3>
+            <p>Popularitatea constantă a coralului a dus, inevitabil, la o presiune imensă asupra populațiilor sălbatice. Recoltarea excesivă, în special în secolul XX, a epuizat multe dintre recifele de mică adâncime.[24, 11] Metodele de pescuit distructive, precum dragarea cu "crucea Sfântului Andrei" – o structură grea târâtă pe fundul mării care rupea totul în cale – au cauzat daune ecologice severe.[24, 25]</p>
+            <p>Astăzi, recoltarea coralului este strict reglementată în multe țări. Legislația modernă interzice metodele distructive și permite doar recoltarea selectivă, realizată de scafandri autorizați, la adâncimi de peste 50 de metri și cu respectarea unor dimensiuni minime ale ramurilor.[7] Crearea de arii marine protejate, cum ar fi cele din jurul insulei Corsica, s-a dovedit esențială pentru refacerea coloniilor de <em>Corallium rubrum</em>.[4] Această conștientizare a fragilității ecosistemelor de corali a condus la o schimbare de paradigmă, promovând un consum responsabil și o apreciere reînnoită pentru bijuteriile antice și vintage, ca o alternativă sustenabilă.[17, 11]</p>
+        </div>
+
+        <div id="spiritualitate" class="tab-content">
+            <h2>Semnificații spirituale și energetice</h2>
+            <p>Dincolo de valoarea sa materială și istorică, coralul este încărcat cu o profundă semnificație spirituală și energetică. Considerat o punte între lumea fizică și cea spirituală, el este utilizat în diverse tradiții ezoterice pentru a promova echilibrul, vitalitatea și protecția.</p>
+
+            <h3>Vibrația coralului: pace, vitalitate și protecție</h3>
+            <p>În cristaloterapie, coralul este recunoscut ca o piatră a păcii interioare. Se crede că energia sa, provenită din ritmul calm și constant al oceanului, ajută la liniștirea emoțiilor agitate, la diminuarea anxietății și la alungarea gândurilor negative sau a stărilor de pesimism.[1, 10, 14] Este considerat un remediu pentru cei care se simt blocați în trecut, facilitând eliberarea și acceptarea schimbării.[1]</p>
+            <p>Culoarea sa vibrantă, în special cea roșie, este asociată direct cu energia vitală (forța vieții). Purtarea coralului este recomandată pentru a amplifica energia personală, curajul, determinarea și pasiunea.[7, 10, 3] Este o piatră care încurajează acțiunea și ajută la depășirea letargiei și a amânării. De secole, a fost purtat ca un puternic talisman protector, capabil să respingă energiile negative, invidia și "deochiul".[4, 17] Această credință, răspândită din Roma Antică până în Italia modernă, subliniază rolul său de gardian energetic.[4]</p>
+
+            <h3>Armonizarea centrilor energetici: coralul și sistemul de chakre</h3>
+            <p>În practicile de vindecare energetică, diferitele culori de coral sunt folosite pentru a echilibra și activa centrii energetici ai corpului, cunoscuți sub numele de chakre. Fiecare culoare rezonează cu o frecvență specifică, influențând anumite aspecte ale ființei noastre fizice, emoționale și spirituale.[17]</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tipul de coral</th>
+                        <th>Chakra asociată</th>
+                        <th>Beneficii energetice</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Coral roșu</strong></td>
+                        <td>Chakra rădăcină (Muladhara)</td>
+                        <td>Ancorare, stabilitate, securitate fizică și materială, vitalitate, curaj. Ajută la eliminarea fricilor legate de supraviețuire.[17, 26, 3, 27]</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Coral portocaliu</strong></td>
+                        <td>Chakra sacrală (Svadhisthana)</td>
+                        <td>Creativitate, pasiune, bucurie de a trăi, echilibru emoțional, energie sexuală armonioasă.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Coral roz</strong></td>
+                        <td>Chakra inimii (Anahata) & gâtului (Vishuddha)</td>
+                        <td>Iubire necondiționată, compasiune, vindecare emoțională, comunicare sinceră și empatică.[17, 28, 29]</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Coral alb</strong></td>
+                        <td>Chakra coroană (Sahasrara)</td>
+                        <td>Puritate, conexiune cu divinul, claritate spirituală, pace interioară, eliminarea blocajelor energetice.[30, 17, 29]</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Coral albastru</strong></td>
+                        <td>Chakra gâtului (Vishuddha) & al treilea ochi (Ajna)</td>
+                        <td>Facilitarea comunicării, îmbunătățirea abilităților psihice, intuiție.[29]</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Coral negru</strong></td>
+                        <td>Chakra rădăcină (Muladhara)</td>
+                        <td>Protecție puternică, absorbția și transformarea negativității, regenerare energetică.[9, 14, 29]</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Coralul în tradițiile ezoterice</h3>
+            <p>Pe lângă asocierea cu chakrele, coralul ocupă un loc important în sisteme ezoterice complexe, precum astrologia vedică și Feng Shui.</p>
+            <h4>Astrologia vedică (Jyotish)</h4>
+            <p>În astrologia hindusă, coralul roșu, cunoscut sub numele de <em>Moonga</em> sau <em>Praval</em>, este gema principală a planetei Marte (<em>Mangal</em>).[31, 32] Marte este planeta energiei, a curajului, a ambiției și a forței fizice. Atunci când Marte este slab sau afectat negativ în harta natală a unei persoane, purtarea unui inel cu coral roșu (de preferință pe degetul inelar al mâinii drepte) este recomandată pentru a-i amplifica energiile pozitive.[4, 31] Se crede că Moonga ajută la depășirea obstacolelor, conferă victorie asupra dușmanilor, îmbunătățește circulația sângelui, combate letargia și oferă determinarea necesară pentru a duce la bun sfârșit proiectele începute.[33, 34] De asemenea, este considerat un remediu important pentru atenuarea efectelor negative ale condiției astrologice cunoscute sub numele de <em>Manglik Dosha</em>, care poate aduce dificultăți în viața maritală.[31, 35]</p>
+            <h4>Feng Shui</h4>
+            <p>În arta chineză a armonizării spațiilor, Feng Shui, coralul este utilizat pentru a atrage energie pozitivă (<em>Chi</em>), prosperitate și succes.[14] Datorită culorilor sale calde, în special roșu și portocaliu, este asociat cu elementul Foc.[36] Elementul Foc este legat de pasiune, recunoaștere și energie vibrantă. Prin urmare, plasarea obiectelor din coral în anumite sectoare ale casei sau biroului, conform hărții Bagua, poate activa aceste energii. De exemplu, un obiect din coral roșu plasat în sectorul de Sud (zona faimei și a reputației) poate spori vizibilitatea și recunoașterea socială, în timp ce în sectorul de Sud-Vest (zona dragostei și a căsătoriei) poate stimula pasiunea și armonia în relații.</p>
+        </div>
+
+        <div id="terapeutic" class="tab-content">
+            <h2>Utilizări terapeutice: de la alchimie la biomedicină</h2>
+            <p>De mii de ani, coralul nu a fost doar o podoabă, ci și un remediu. Utilizat în sistemele medicale tradiționale din întreaga lume, el a fost apreciat pentru proprietățile sale curative. În mod remarcabil, știința modernă a validat și a rafinat una dintre cele mai vechi utilizări ale sale, transformând scheletul marin într-un material de avangardă în chirurgia reconstructivă.</p>
+
+            <h3>Farmacopeea tradițională: vindecarea din mare</h3>
+            <p>O analiză a sistemelor medicale antice relevă o convergență surprinzătoare în ceea ce privește utilizările coralului. Deși separate geografic și filosofic, tradițiile ayurvedică, chineză și tibetană au identificat, în mod independent, beneficii similare, în special legate de oase, sânge și calmarea organismului. Această suprapunere sugerează o bază empirică solidă, probabil legată de compoziția sa chimică bogată în calciu și oligoelemente, care a fost observată și valorificată de-a lungul secolelor.</p>
+            <h4>Medicina ayurvedică</h4>
+            <p>În Ayurveda, sistemul tradițional de medicină indian, coralul (<em>Praval</em>) este considerat una dintre cele nouă geme prețioase (<em>Ratnas</em>) și este utilizat sub două forme principale de preparare: <em>Praval Bhasma</em> și <em>Praval Pishti</em>.[37]</p>
+            <ul>
+                <li><strong>Praval Bhasma:</strong> Este o pulbere fină (calx) obținută prin calcinarea coralului purificat. Acest proces termic este menit să-i sporească biodisponibilitatea. Este utilizat în principal ca o sursă bogată de calciu natural pentru tratarea afecțiunilor osoase, cum ar fi osteoporoza, și pentru a promova mineralizarea osoasă.[38]</li>
+                <li><strong>Praval Pishti:</strong> Acesta este un preparat necalcinat, obținut prin triturarea (măcinarea fină) a coralului purificat cu apă de trandafiri, timp de mai multe zile, până se obține o pastă extrem de fină.[39] Datorită procesului de preparare "la rece", se consideră că are proprietăți răcoritoare (<em>pitta shamaka</em>) și este folosit pentru a trata afecțiuni legate de "căldura" excesivă în corp, precum aciditatea gastrică (<em>Amlapitta</em>), arsurile, febra și diverse afecțiuni inflamatorii.[37, 39]</li>
+            </ul>
+            <h4>Medicina tradițională chineză (MTC)</h4>
+            <p>Coralul este menționat în texte clasice precum "Compendium of Materia Medica" (Bencao Gangmu), scris în secolul al XVI-lea. În MTC, coralul (<em>Shan Hu</em>) are un gust dulce și o natură neutră. Este utilizat pentru a calma mintea (<em>tranquilize the mind</em>), a îmbunătăți vederea (tratează opacitatea corneeană) și a opri sângerările, cum ar fi epistaxisul (sângerarea nazală).[40] De asemenea, este folosit pentru a dispersa staza sângelui. Intră în componența unor formule medicinale complexe, precum "Ershiwuwei Shanhu pills", utilizate pentru a trata afecțiuni neurologice, inclusiv dureri de cap, amețeli și epilepsie.[41, 40]</p>
+            <h4>Medicina tibetană</h4>
+            <p>În tradiția medicală tibetană, coralul este asociat cu proprietăți de purificare a sângelui și de echilibrare a energiei elementului Foc. Este considerat benefic pentru protecția împotriva bolilor și pentru calmarea minții.[17]</p>
+
+            <h3>Inovație în biomedicină: scheletul care reconstruiește schelete</h3>
+            <p>Una dintre cele mai spectaculoase aplicații moderne ale coralului se află în domeniul ingineriei tisulare și al chirurgiei ortopedice, unde servește ca material pentru grefe osoase.[42] Această utilizare se bazează pe o descoperire remarcabilă: structura sa internă este extraordinar de similară cu cea a osului spongios uman.</p>
+            <h4>Grefa osoasă ideală</h4>
+            <p>Scheletul de coral posedă o microstructură tridimensională formată dintr-o rețea de pori interconectați, cu dimensiuni ideale (între 100 și 500 micrometri).[40, 43] Această arhitectură poroasă este crucială, deoarece permite colonizarea grefei de către celulele osoase ale pacientului (osteoblaste), formarea de noi vase de sânge (angiogeneză) și, în final, integrarea completă în osul gazdă (osteointegrare).[40, 42] Spre deosebire de grefele autologe (luate de la pacient), care sunt limitate cantitativ și implică o a doua zonă chirurgicală, sau de cele alogene (de la donatori umani), care prezintă risc de transmitere a bolilor, coralul oferă o alternativă sigură și abundentă.[40]</p>
+            <h4>De la $CaCO_3$ la hidroxiapatită</h4>
+            <p>În forma sa naturală de carbonat de calciu ($CaCO_3$), coralul nu este ideal pentru grefare, deoarece se resoarbe prea lent în organism.[44] Inovația a constat în dezvoltarea unui proces hidrotermal care transformă carbonatul de calciu în hidroxiapatită ($Ca_{10}(PO_4)_6(OH)_2$), principalul component mineral al osului uman.[42] Acest material, numit hidroxiapatită coralică, păstrează arhitectura poroasă a coralului original, dar este mult mai biocompatibil și biodegradabil, fiind treptat înlocuit de osul nou format al pacientului.[44]</p>
+            <h4>Viitorul sustenabil: coralul de acvacultură</h4>
+            <p>Conștientizarea faptului că recifurile de corali sunt ecosisteme amenințate a dus la dezvoltarea unei soluții sustenabile: creșterea coralilor în sisteme acvatice închise, controlate (acvacultură).[43, 45] Companii precum CoreBone din Israel utilizează tehnologii brevetate pentru a cultiva corali în apă de mare creată în laborator, îmbogățită cu nutrienți bioactivi (precum siliciu și stronțiu) care sporesc proprietățile osteoconductive ale grefei. Această abordare elimină riscurile asociate cu poluarea marină, previne deteriorarea recifelor naturale și asigură un produs standardizat și sigur pentru uz medical, deschizând un nou capitol în povestea relației dintre om și această minune a naturii.[43]</p>
+        </div>
+
+        <div id="bibliografie" class="tab-content">
+            <h2>Bibliografie</h2>
+            <div class="bibliography-container">
+                <ul>
+                    <li>[46] https://www.youtube.com/watch?v=2OqzH5vMAnA&pp=0gcJCfwAo7VqN5tD</li>
+                    <li>[47] https://en.wikipedia.org/wiki/Coral</li>
+                    <li>[4] https://en.wikipedia.org/wiki/Precious_coral</li>
+                    <li>[48] http://www.marinespecies.org/aphia.php?p=taxdetails&id=125416</li>
+                    <li>[5] https://pmc.ncbi.nlm.nih.gov/articles/PMC10915489/</li>
+                    <li>[30] https://www.concepttropic.ro/coral-alb</li>
+                    <li>[9] https://www.kristale.ro/dupa-numele-cristalelor/coral/</li>
+                    <li>[7] https://www.centrulgemologicroman.ro/coralii-geme-organice/</li>
+                    <li>[49] https://sobling.jewelry/ro/coral-a-journey-through-history-science-and-aesthetics/?PageSpeed=noscript</li>
+                    <li>[50] https://www.taiwan-panorama.com/en/Articles/Details?Guid=113fba9b-3be2-44de-9655-701f4dd5b8aa&CatId=9&postname=Restoring%20the%20Value%20of%20Coral</li>
+                    <li>[24] https://www.youtube.com/watch?v=uvHSkANyyOY</li>
+                    <li>[51] https://www.youtube.com/watch?v=JSTFyrn4Q58</li>
+                    <li>[52] https://www.youtube.com/watch?v=6KlCx0ycN70</li>
+                    <li>[53] https://www.youtube.com/watch?v=WxnVhJGPrM8</li>
+                    <li>[54] https://www.youtube.com/watch?v=qiWlLetmxLo</li>
+                    <li>[55] https://www.youtube.com/watch?v=vQ9z8hR8qGw</li>
+                    <li>[56] https://www.shebajewelry.ro/brose/5-15-2-14826.html</li>
+                    <li>[1] https://teratai.shop/blog/pietre-semipretioase/coralul-o-poveste-din-adancuri/</li>
+                    <li>[17] https://signdesign.ro/coral/</li>
+                    <li>[19] https://blutimescubahistory.com/web/en/parliamo-di/1-red-coral-ancient-fishing</li>
+                    <li>[16] https://www.napoliartigianatoartistico.com/en/la-lavorazione-artisticoartigianale-del-corallo/</li>
+                    <li>[20] https://fondazionesorrento.com/en/nature/red-coral-myth-tradition/</li>
+                    <li>[21] https://galeriepenelope.com/a/l/en/blogs/journal/le-corail</li>
+                    <li>[38] https://pubmed.ncbi.nlm.nih.gov/14527824/</li>
+                    <li>[57] https://store.planetayurveda.com/products/coral-cal-flow</li>
+                    <li>[41] https://pmc.ncbi.nlm.nih.gov/articles/PMC10791799/</li>
+                    <li>[58] https://pubmed.ncbi.nlm.nih.gov/38235111/</li>
+                    <li>[10] https://www.stonemania.ro/semnificatia-coralului-rosu/</li>
+                    <li>[59] https://florariadevis.ro/culorile-florilor-si-impactul-lor-psihologic-un-ghid-complet/</li>
+                    <li>[60] https://kojaconcept.com/2023/09/16/culoarea-portocaliu-istorie-moda-si-psihologie/</li>
+                    <li>[14] https://www.kumioils.com/blogs/news/coral-stone-meaning</li>
+                    <li>[61] https://www.drmax.ro/articole/cristaloterapie-terapia-cu-cristale-mituri-si-realitati</li>
+                    <li>[62] https://www.magazinuldepietre.ro/blog/post/cele-7-chakre-cum-iti-pot-proteja-pietrele-semipretioase-energia-interioara.html</li>
+                    <li>[31] https://www.iigsouth.com/red-coral-astrology-navaratna/</li>
+                    <li>[26] https://harekrishnamart.com/blogs/post/which-chakra-does-red-coral-stone-work-on</li>
+                    <li>[33] http://planetarygems.com/redcoralpage.htm</li>
+                    <li>[63] https://en.wikipedia.org/wiki/Mangala</li>
+                    <li>[35] https://thevediccrystals.com/blogs/articles-around-gemstones/is-red-coral-moonga-good-for-manglik-dosha</li>
+                    <li>[36] https://fengshuidana.com/2015/10/10/feng-shui-using-the-color-orange/</li>
+                    <li>[64] https://www.picturethisai.com/fengshui/Erythrina_speciosa.html</li>
+                    <li>[25] https://www.acquariodilivorno.com/corals</li>
+                    <li>[65] https://www.magazinuldepietre.ro/blog/post/pietre-semipretioase-rosii-cu-putere-simbolica-rubin-granat-jasp-rosu-carneol-rodonit-si-coral-rosu.html</li>
+                    <li>[37] https://www.researchgate.net/publication/359423618_Conceptual_Review_of_Pravala_Coral_-_A_Marine_Source_of_Natural_Calcium</li>
+                    <li>[39] https://www.netmeds.com/health-library/post/praval-pishti-benefits-uses-ingredients-dosage-and-side-effects</li>
+                    <li>[66] https://journaljpri.com/index.php/JPRI/article/view/2522</li>
+                    <li>[40] https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2023.1230608/full</li>
+                    <li>[67] https://www.shvasa.com/yoga-blog/what-is-the-sacral-chakra</li>
+                    <li>[68] https://bucatarieindiana.wordpress.com/2015/02/03/coralul-rosu-remediu-astrologic-pentru-planeta-marte/</li>
+                    <li>[69] https://www.fengshui4life.ro/blog/cum-sa-ti-activezi-perspectivele-de-casatorie/</li>
+                    <li>[70] https://buddhaandkarma.com/blogs/guide/feng-shui-bagua</li>
+                    <li>[71] https://fengshuimanhattan.com/blog/2018/6/21/feng-shui-bagua-map-basics-for-your-home</li>
+                    <li>[72] https://www.fengshui4life.ro/blog/feng-shui-pentru-dragoste-ghidul-pentru-armonie-in-relatii/</li>
+                    <li>[13] https://www.bijuterii-noblesse.ro/bijuterii/bijuterii-din-coral/</li>
+                    <li>[23] https://www.jw.org/ro/biblioteca/reviste/g20021122/Aurul-Ro%C5%9Fu-din-Mediterana/</li>
+                    <li>[22] https://www.youtube.com/watch?v=0uHsLufka-U</li>
+                    <li>[18] https://www.aucella.com/blog/coral-torre-del-greco</li>
+                    <li>[73] https://www.maiabijou.ro/blog/istoria-bijuteriilor.html</li>
+                    <li>[74] https://www.stonemania.ro/cum-pot-ajuta-cristalele-energia-emotionala/</li>
+                    <li>[75] https://www.stonemania.ro/cristalele-si-puterea-lor-curativa/</li>
+                    <li>[32] https://www.planetarygems.com/astrological-red-coral.htm</li>
+                    <li>[76] https://www.pinterest.com/pin/red-coral-is-the-gemstone-of-planet-marsmangal-as-per-vedic-astrology-red-coral-is-worn-to-boost-the-energy-of-mars-in-the-horosc--852235929461030650/</li>
+                    <li>[77] https://www.magazinuldepietre.ro/blog/post/prelucrarea-pietrelor-semipretioase-de-la-frumusetea-bruta-la-bijuterii-spectaculoase.html</li>
+                    <li>[78] https://www.youtube.com/watch?v=8S_5Gft_3Hk</li>
+                    <li>[79] https://www.elmio.ro/reguli-de-utilizare-a-bijuteriilor</li>
+                    <li>[80] https://mizzajewelry.com/sfaturi-de-intretinere/</li>
+                    <li>[2] https://agta.org/coral/</li>
+                    <li>[3] https://gemavenue.com/collections/coral-stone</li>
+                    <li>[6] https://www.monaconatureencyclopedia.com/corallium-rubrum/?lang=en</li>
+                    <li>[8] https://www.biologydiscussion.com/structures/structure-of-corallium-with-diagram-zoology/60517</li>
+                    <li>[11] https://somedayjewels.com/blogs/the-someday-times/coveted-coral-a-history-of-the-use-of-coral-in-jewelry</li>
+                    <li>[12] https://www.sealifebase.org/summary/Corallium-rubrum.html</li>
+                    <li>[15] https://brahmagems.com/blog/real-coral-gemstone-identify-the-fake-ones-with-these-tests.html</li>
+                    <li>[27] https://moonrisecrystals.com/red-coral-meaning/</li>
+                    <li>[28] https://www.en.emmanuelleguyon.com/vertus_corail_en.php</li>
+                    <li>[29] https://www.ravencrystals.com/CORAL--MYSTIC-QUALITIES_df_1177.html</li>
+                    <li>[34] https://www.davayurvedaezine.com/article/coral----mystic-ayurvedic-medicine-from-sea/601</li>
+                    <li>[42] https://indiabioscience.org/news/2015/bone-grafting-using-corals</li>
+                    <li>[43] https://core-bone.com/</li>
+                    <li>[44] https://www.smithsonianmag.com/smart-news/sea-coral-makes-excellent-human-bone-grafts-180953121/</li>
+                    <li>[45] https://idl-implants.com/product/coral-bone-graft/</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openTab(evt, tabName) {
+            var i, tabcontent, tabbuttons;
+            tabcontent = document.getElementsByClassName("tab-content");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tabbuttons = document.getElementsByClassName("tab-button");
+            for (i = 0; i < tabbuttons.length; i++) {
+                tabbuttons[i].className = tabbuttons[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+        // Activați primul tab la încărcarea paginii
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelector('.tab-button').click();
+        });
+    </script>
+
+</body>
+</html>
