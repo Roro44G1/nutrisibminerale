@@ -211,7 +211,11 @@
             margin-left: auto;
             margin-right: auto;
         }
-
+      /* Corecție pentru centrarea textului în disclaimer și copyright */
+        .disclaimer p, .copyright p {
+            text-align: center;
+        }
+        
     </style>
 </head>
 <body>
@@ -506,7 +510,7 @@
     </div>
     
     <div class="disclaimer">
-        <p>Informațiile prezentate în acest document au un scop educativ și nu înlocuiesc sfatul medical profesionist. Terapiile trebuie realizate sub îndrumarea unui specialist.</p>
+        <p text-align:>Informațiile prezentate în acest document au un scop educativ și nu înlocuiesc sfatul medical profesionist. Terapiile trebuie realizate sub îndrumarea unui specialist.</p>
     </div>
 
     <div class="copyright">
